@@ -7,13 +7,12 @@ pkgdesc="Skel for BigLinux Gnome"
 arch=('any')
 url="https://github.com/biglinux/$pkgname"
 license=('GPL3')
-# depends=('')
-provides=("$pkgname")
+#conflicts=('big-skel')
+#provides=("$pkgname")
 source=("git+${url}.git")
 sha256sums=('SKIP')
 
 #bigskel=$(pacman -Ss biglinux-skel- | awk -F'[/ ]' '{print $2}')
-conflicts=('big-skel')
 #"$bigskel"
 
 package() {
