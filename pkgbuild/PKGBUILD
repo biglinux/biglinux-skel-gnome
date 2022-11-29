@@ -15,6 +15,7 @@ sha256sums=('SKIP')
 
 conflicts() {
     pacman -Ss pacman -Ss biglinux-skel- | awk -F'[\/ ]' '{print $2}'
+    echo "big-skel"
 }
 
 package() {
