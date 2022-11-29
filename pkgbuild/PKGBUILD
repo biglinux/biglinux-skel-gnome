@@ -1,0 +1,18 @@
+# Maintainer: Barnabé <barnabedikartola@gmail.com>
+
+pkgname=biglinux-skel-gnome
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+pkgdesc="Skel for BigLinux Gnome"
+arch=('any')
+url="https://github.com/biglinux/$pkgname"
+license=('GPL3')
+# depends=('')
+provides=("$pkgname")
+conflicts=('big-skel' 'biglinux-skel-*')
+source=("git+${url}.git")
+sha256sums=('SKIP')
+
+package() {
+    cp -r "${srcdir}/${pkgname}/etc/" "${pkgdir}/"
+}
