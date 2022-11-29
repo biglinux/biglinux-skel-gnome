@@ -10,14 +10,11 @@ license=('GPL3')
 # depends=('')
 provides=("$pkgname")
 replaces=('big-skel')
-# conflicts=('big-skel')
 source=("git+${url}.git")
 sha256sums=('SKIP')
 
-# conflicts() {
-#     pacman -Ss pacman -Ss biglinux-skel- | awk -F'[\/ ]' '{print $2}'
-#     echo "big-skel"
-# }
+bigskel=$(pacman -Ss biglinux-skel- | awk -F'[/ ]' '{print $2}')
+conflicts=("$bigskel" 'big-skel')
 
 package() {
     cp -r "${srcdir}/${pkgname}/etc/" "${pkgdir}/"
