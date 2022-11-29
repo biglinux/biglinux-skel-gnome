@@ -9,14 +9,15 @@ url="https://github.com/biglinux/$pkgname"
 license=('GPL3')
 # depends=('')
 provides=("$pkgname")
+replaces=('big-skel')
 # conflicts=('big-skel')
 source=("git+${url}.git")
 sha256sums=('SKIP')
 
-conflicts() {
-    pacman -Ss pacman -Ss biglinux-skel- | awk -F'[\/ ]' '{print $2}'
-    echo "big-skel"
-}
+# conflicts() {
+#     pacman -Ss pacman -Ss biglinux-skel- | awk -F'[\/ ]' '{print $2}'
+#     echo "big-skel"
+# }
 
 package() {
     cp -r "${srcdir}/${pkgname}/etc/" "${pkgdir}/"
