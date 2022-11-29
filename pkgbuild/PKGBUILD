@@ -9,7 +9,6 @@ url="https://github.com/biglinux/$pkgname"
 license=('GPL3')
 # depends=('')
 provides=("$pkgname")
-replaces=('big-skel')
 source=("git+${url}.git")
 sha256sums=('SKIP')
 
