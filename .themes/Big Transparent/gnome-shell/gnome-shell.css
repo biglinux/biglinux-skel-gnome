@@ -1,0 +1,267 @@
+#panel {
+    background-color: rgba(13, 14, 18, 0.7);
+}
+
+.popup-menu-content, .candidate-popup-content {
+    background-color: rgba(13, 14, 18, 0.7);
+}
+
+.modal-dialog {
+    background-color: rgba(13, 14, 18, 0.7);
+}
+
+.media-message-cover-icon.fallback {
+    background-color: rgba(13, 14, 18, 0.7);
+}
+
+/* Slider */
+.slider {
+    -slider-border-color:transparent;
+}
+
+.popup-menu-boxpointer,
+.candidate-popup-boxpointer {
+    background-color: transparent;
+    border: 0px transparent;
+}
+
+.popup-status-menu-item {
+/*indic value*/
+    text-shadow:0px 1px 0px transparent;
+}
+
+/* FOKUSED */
+.notification-button:focus,
+.notification-icon-button:focus,
+.hotplug-notification-item:focus,
+.modal-dialog-button:focus,
+.app-view-control:focus,
+.button:focus {
+    border-color:transparent;
+}
+
+/* INSENSITIF */
+.candidate-page-button:insensitive,
+.notification-button:insensitive,
+.notification-icon-button:insensitive,
+.modal-dialog-button:insensitive,
+.button:insensitive {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#panel:overview {
+    background-color: transparent;
+}
+
+#panel:overview #panelActivities:active,
+#panel:overview #panelActivities:overview {
+	color:transparent
+}
+
+#panel.unlock-screen,
+#panel.login-screen {
+    background-color: transparent;
+}
+
+.panel-corner {
+	-panel-corner-background-color: transparent;
+	-panel-corner-border-color: transparent;
+}
+
+.panel-corner:active,
+.panel-corner:overview,
+.panel-corner:focus {
+	-panel-corner-border-color: transparent;
+}
+
+.panel-corner.lock-screen,
+.panel-corner.unlock-screen,
+.panel-corner.login-screen {
+	-panel-corner-background-color: transparent;
+	-panel-corner-border-color: transparent;
+}
+
+/* Replaces the activities text with a custom image. Height and width should use the same size as the image file. */
+
+/*
+#panelActivities:hover {
+        background-color:transparent;
+}
+#panelActivities:active,
+#panelActivities:overview {
+        background-color:transparent;
+}
+*/
+
+.workspace-thumbnails {
+    border: 0px transparent;
+}
+
+.messages-indicator-highlight {
+    background-gradient-start: transparent;
+}
+
+/* Dash */
+#dash {
+    border: 0px transparent;
+}
+
+.app-well-app.running .overview-icon {
+    border: 1px transparent;
+}
+
+.app-well-app:hover .overview-icon,
+.show-apps:hover .overview-icon,
+.search-provider-icon:hover,
+.list-search-result:hover,
+.grid-search-result:hover .overview-icon {
+    border-color:transparent;
+}
+
+/*-----*/
+
+.app-well-app:checked .overview-icon,
+.app-well-app:active .overview-icon,
+.show-apps:checked .overview-icon,
+.show-apps:active .overview-icon,
+.search-provider-icon:active,
+.list-search-result:active {
+    border: 1px transparent;
+}
+
+.app-well-app:focus .overview-icon,
+.grid-search-result:focus .overview-icon,
+.show-apps:focus .overview-icon,
+.search-provider-icon:focus,
+.list-search-result:focus,
+.app-well-app:selected .overview-icon,
+.grid-search-result:selected .overview-icon,
+.search-provider-icon:selected,
+.list-search-result:selected {
+    border-color:transparent;
+}
+
+.calendar-month-label {
+    border:1px transparent;
+}
+
+.calendar-month-label:focus {
+    border-color: transparent;
+}
+
+/*CHANGE MONTH*/
+.calendar-change-month-back {
+    border:1px transparent;
+}
+
+.calendar-change-month-forward {
+    border:1px transparent;
+}
+
+.calendar-change-month-back:hover,
+.calendar-change-month-back:focus,
+.calendar-change-month-forward:hover,
+.calendar-change-month-forward:focus {
+    border-color: transparent;
+}
+
+/*TODAY BUTTON*/
+.datemenu-today-button {
+    border:1px transparent;
+}
+
+/* Hack used in lieu of border-collapse - see calendar.js */
+.calendar-day {
+    border: 0px solid transparent /*#505050*/;
+}
+
+.message-list-section-title{
+    background:transparent;
+}
+
+.message-list-section-title:hover,
+.message-list-section-title:focus{
+    background:transparent;
+color:white
+}
+
+.message {
+    background-color:transparent;
+}
+
+.notification-banner:hover{
+    border-color: transparent;
+}
+
+/*button section*/
+.notification-banner .notification-actions {
+    background-color: transparent;
+}
+
+.summary-boxpointer {
+    background-color: transparent;
+    border: 0px transparent;
+}
+
+.notification-actions {
+    background-color:transparent;
+}
+
+.notification-icon-button {
+    border: 1px transparent rgba(50,50,50,.0); /* using rgba() is flaky unfortunately */
+    box-shadow: 0 0 transparent rgba(255,255,255,0);
+}
+
+.summary-source-button:hover .summary-source {
+    border-color:transparent;
+}
+
+.summary-source-button:focus .summary-source,
+.summary-source-button:selected .summary-source {
+    border-color:transparent;
+}
+
+.summary-source {
+    border: 1px solid transparent;
+}
+
+.workspace-switcher-container {
+    background-color: transparent;
+    border: 0px transparent;
+}
+
+.workspace-switcher {
+    background: transparent;
+}
+
+.login-dialog {
+    /* Reset border and background */
+    border: none;
+    background-color: transparent;
+}
+
+/* Remove background from notifications, otherwise
+   opacity is doubled and they look darker
+*/
+.screen-shield-notifications-box .notification {
+    background-color: transparent;
+}
+
+.legacy-tray {
+    border: 1px transparent rgba(90,105,111,.5);
+}
+
+.modal-dialog-linked-button {
+    background-color: transparent;
+}
+
+/* New running app*/
+
+#dash .app-well-app-running-dot {
+  background-color: transparent;
+}
+
+.app-well-app-running-dot {
+  background-color: transparent;
+}
