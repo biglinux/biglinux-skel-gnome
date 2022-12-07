@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///usr/share/backgrounds/gnome/adwaita-l.webp" added="2022-11-30T00:40:40.035222Z" modified="2022-11-30T00:40:40.035226Z" visited="2022-11-30T00:40:40.035223Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="Ajustes do GNOME" exec="&apos;gnome-tweaks %u&apos;" modified="2022-11-30T00:40:40.035224Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/Big-Ruscher.jpg" added="2022-11-30T01:41:33.197517Z" modified="2022-11-30T01:46:29.212250Z" visited="2022-11-30T01:41:33.197518Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T01:41:33.447755Z" count="2"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-11-30T01:46:29.212248Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/BigBrasil.jpg" added="2022-11-30T01:41:39.472551Z" modified="2022-11-30T01:41:39.720750Z" visited="2022-11-30T01:41:39.472552Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T01:41:39.720746Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/Big-tech.jpg" added="2022-11-30T01:41:45.070573Z" modified="2022-11-30T01:41:45.319611Z" visited="2022-11-30T01:41:45.070574Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T01:41:45.319609Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/Big-retro.jpg" added="2022-11-30T01:41:50.734739Z" modified="2022-12-01T03:31:33.831110Z" visited="2022-11-30T01:41:50.734740Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T01:41:50.985262Z" count="2"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-12-01T03:31:33.831107Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/Big-new.jpg" added="2022-11-30T01:41:57.359133Z" modified="2022-11-30T04:05:32.820941Z" visited="2022-11-30T01:41:57.359134Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T01:41:57.609277Z" count="2"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-11-30T04:05:32.820939Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/166629-gnome-shell-lock-screen-extension.tar" added="2022-11-30T01:54:16.222995Z" modified="2022-11-30T01:54:51.495360Z" visited="2022-11-30T01:54:16.222997Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T01:54:16.470434Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2022-11-30T01:54:51.495359Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/lockscreen@donaldpakkies.gmail.com/metadata.json" added="2022-11-30T01:55:11.041388Z" modified="2022-11-30T01:55:11.041396Z" visited="2022-11-30T01:55:11.041391Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;firefox %u&apos;" modified="2022-11-30T01:55:11.041395Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/lockscreen@donaldpakkies.gmail.com/extension.js" added="2022-11-30T01:55:21.288809Z" modified="2022-11-30T01:55:21.288814Z" visited="2022-11-30T01:55:21.288810Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-11-30T01:55:21.288812Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Transparent%20shell%20theme%203.7.tar.gz" added="2022-11-30T02:33:16.705975Z" modified="2022-11-30T02:33:16.956081Z" visited="2022-11-30T02:33:16.705976Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T02:33:16.956078Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads" added="2022-11-30T02:38:18.544604Z" modified="2022-12-01T06:17:22.379792Z" visited="2022-11-30T02:38:18.544605Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-12-01T06:17:22.379789Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.themes" added="2022-11-30T02:40:04.462081Z" modified="2022-11-30T02:40:04.462084Z" visited="2022-11-30T02:40:04.462081Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-11-30T02:40:04.462083Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.config/bigocrpdf/text.txt" added="2022-11-30T03:04:53.617000Z" modified="2022-11-30T03:04:53.617000Z" visited="2022-11-30T03:04:53.617000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-11-30T03:04:53.617000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/arcmenuarcmenu.com.v43.shell-extension.zip" added="2022-11-30T03:21:02.383859Z" modified="2022-11-30T03:21:04.873209Z" visited="2022-11-30T03:21:02.383859Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T03:21:02.633211Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2022-11-30T03:21:04.873207Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.local/share/gnome-shell/extensions" added="2022-11-30T03:26:29.121680Z" modified="2022-11-30T03:26:29.121685Z" visited="2022-11-30T03:26:29.121681Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-11-30T03:26:29.121683Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.local/share/gnome-shell/extensions/arcmenuarcmenu.com.v43.shell-extension/schemas/org.gnome.shell.extensions.arcmenu.gschema.xml" added="2022-11-30T03:30:10.276708Z" modified="2022-11-30T03:30:10.984000Z" visited="2022-11-30T03:30:10.984000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;kate -b %U&apos;" modified="2022-11-30T03:30:10.276725Z" count="1"/>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-11-30T03:30:10.984000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/arcmenuarcmenu.com.v43.shell-extension(1).zip" added="2022-11-30T03:39:07.760830Z" modified="2022-11-30T03:39:15.712411Z" visited="2022-11-30T03:39:07.760831Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-11-30T03:39:07.760832Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2022-11-30T03:39:15.712410Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.cache/.fr-KMZBW1/README.md" added="2022-11-30T03:39:22.009000Z" modified="2022-11-30T03:39:22.009000Z" visited="2022-11-30T03:39:22.009000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-11-30T03:39:22.009000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/google-chrome-stable_current_amd64.deb" added="2022-11-30T03:42:00.433180Z" modified="2022-11-30T05:09:49.639431Z" visited="2022-11-30T03:42:00.433181Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-11-30T03:42:00.433183Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;debtap-gui %F&apos;" modified="2022-11-30T05:09:49.639430Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/debtap-mod-working-directory/.INSTALL" added="2022-11-30T05:10:19.207000Z" modified="2022-11-30T05:10:19.207000Z" visited="2022-11-30T05:10:19.207000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-11-30T05:10:19.207000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/debtap-mod-working-directory/.PKGINFO" added="2022-11-30T05:10:31.489000Z" modified="2022-11-30T05:10:31.489000Z" visited="2022-11-30T05:10:31.489000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-11-30T05:10:31.489000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Transparent%20shell%20theme%203.7/gnome-shell/gnome-shell.css" added="2022-11-30T16:06:45.573328Z" modified="2022-12-01T06:12:02.995612Z" visited="2022-11-30T16:48:57.515000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;kate -b %U&apos;" modified="2022-12-01T06:12:02.995558Z" count="3"/>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-11-30T16:48:57.515000Z" count="2"/>
+          <bookmark:application name="kate" exec="&apos;kate %u&apos;" modified="2022-12-01T05:39:07.458133Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Fluent-Dark.tar.xz" added="2022-11-30T16:54:43.725799Z" modified="2022-11-30T16:54:43.973473Z" visited="2022-11-30T16:54:43.725800Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T16:54:43.973471Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Fluent-Dark-compact.tar.xz" added="2022-11-30T16:54:56.036575Z" modified="2022-11-30T16:54:56.286834Z" visited="2022-11-30T16:54:56.036576Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T16:54:56.286832Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Fluent-compact.tar.xz" added="2022-11-30T16:55:31.933954Z" modified="2022-11-30T16:55:32.184842Z" visited="2022-11-30T16:55:31.933956Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T16:55:32.184838Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Fluent-compact%20(1).tar.xz" added="2022-11-30T16:55:39.742828Z" modified="2022-11-30T16:55:39.993031Z" visited="2022-11-30T16:55:39.742829Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T16:55:39.993027Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Fluent-Light.tar.xz" added="2022-11-30T16:55:51.621663Z" modified="2022-11-30T16:55:51.872240Z" visited="2022-11-30T16:55:51.621665Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T16:55:51.872238Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Fluent.tar.xz" added="2022-11-30T16:56:02.542503Z" modified="2022-11-30T16:56:02.794877Z" visited="2022-11-30T16:56:02.542504Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T16:56:02.794875Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Fluent-Light-compact.tar.xz" added="2022-11-30T16:56:10.719661Z" modified="2022-11-30T16:56:10.970053Z" visited="2022-11-30T16:56:10.719663Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-11-30T16:56:10.970051Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Documentos/confi_gnome.txt" added="2022-12-01T03:28:36.177607Z" modified="2022-12-01T03:28:36.424974Z" visited="2022-12-01T03:28:36.177608Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-01T03:28:36.424972Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/logo_big_branco.svg" added="2022-12-01T03:38:57.151944Z" modified="2022-12-01T03:39:41.801811Z" visited="2022-12-01T03:38:57.151946Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-01T03:38:57.402194Z" count="2"/>
+          <bookmark:application name="org.gnome.Shell.Extensions" exec="&apos;org.gnome.Shell.Extensions %u&apos;" modified="2022-12-01T03:39:41.801808Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/icon-logo-biglinux.svg" added="2022-12-01T03:40:55.770462Z" modified="2022-12-05T21:46:27.653550Z" visited="2022-12-01T03:40:55.770463Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-01T03:40:56.020608Z" count="2"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2022-12-02T06:06:56.405104Z" count="1"/>
+          <bookmark:application name="org.gnome.Shell.Extensions" exec="&apos;org.gnome.Shell.Extensions %u&apos;" modified="2022-12-05T21:46:27.653548Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/icon-logo-biglinux-menu-color.svg" added="2022-12-01T03:41:04.853294Z" modified="2022-12-01T03:41:58.236392Z" visited="2022-12-01T03:41:04.853295Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-01T03:41:05.101254Z" count="2"/>
+          <bookmark:application name="org.gnome.Shell.Extensions" exec="&apos;org.gnome.Shell.Extensions %u&apos;" modified="2022-12-01T03:41:58.236389Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/icon-logo-biglinux-menu-color-white.svg" added="2022-12-01T03:41:08.772536Z" modified="2022-12-01T03:41:09.022219Z" visited="2022-12-01T03:41:08.772537Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-01T03:41:09.022217Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/sobre-light.svg" added="2022-12-01T04:08:38.300720Z" modified="2022-12-01T04:08:38.583722Z" visited="2022-12-01T04:08:38.300721Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="org.inkscape.Inkscape" exec="&apos;org.inkscape.Inkscape %u&apos;" modified="2022-12-01T04:08:38.583720Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/sobre-dark.svg" added="2022-12-01T04:08:54.001183Z" modified="2022-12-01T04:08:54.278344Z" visited="2022-12-01T04:08:54.001184Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="org.inkscape.Inkscape" exec="&apos;org.inkscape.Inkscape %u&apos;" modified="2022-12-01T04:08:54.278343Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.bashrc" added="2022-12-01T04:18:25.092058Z" modified="2022-12-06T00:52:43.027008Z" visited="2022-12-01T04:43:36.832000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="kate" exec="&apos;kate %u&apos;" modified="2022-12-01T04:25:33.464378Z" count="2"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-01T04:24:34.698903Z" count="2"/>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-12-01T04:43:36.832000Z" count="5"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-12-06T00:52:43.027007Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.gitconfig" added="2022-12-01T04:30:52.114389Z" modified="2022-12-01T04:35:09.701000Z" visited="2022-12-01T04:35:09.701000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="kate" exec="&apos;kate %u&apos;" modified="2022-12-01T04:30:52.114392Z" count="1"/>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-12-01T04:35:09.701000Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Documentos/dconf-settings-v3.txt" added="2022-12-01T04:43:16.937261Z" modified="2022-12-01T04:43:16.939562Z" visited="2022-12-01T04:43:16.937262Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2022-12-01T04:43:16.939560Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Documentos/bashrc.txt" added="2022-12-01T04:44:09.097656Z" modified="2022-12-01T04:44:38.190271Z" visited="2022-12-01T04:44:09.395000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="kate" exec="&apos;kate %u&apos;" modified="2022-12-01T04:44:09.097660Z" count="1"/>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-12-01T04:44:09.395000Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2022-12-01T04:44:38.190269Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/neofetch" added="2022-12-01T04:47:22.564943Z" modified="2022-12-01T04:47:22.815519Z" visited="2022-12-01T04:47:22.564945Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-01T04:47:22.815516Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/Transparent%20shell%20theme%203.7/gnome-shell/big-gnome-shell.css" added="2022-12-01T05:49:29.445504Z" modified="2022-12-01T06:06:22.199000Z" visited="2022-12-01T06:06:22.199000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="kate" exec="&apos;kate %u&apos;" modified="2022-12-01T05:49:29.445507Z" count="1"/>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-12-01T06:06:22.199000Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.themes/Big%20Transparent/gnome-shell/gnome-shell.css" added="2022-12-01T06:11:39.154344Z" modified="2022-12-06T01:11:04.207460Z" visited="2022-12-01T23:16:39.122000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-12-06T01:11:04.207458Z" count="7"/>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-12-01T23:16:39.122000Z" count="6"/>
+          <bookmark:application name="kate" exec="&apos;kate %u&apos;" modified="2022-12-01T06:34:28.611852Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Downloads/01-Flat-Remix-Blue-20221107.tar.xz" added="2022-12-01T06:17:04.648351Z" modified="2022-12-01T06:17:10.658266Z" visited="2022-12-01T06:17:04.648352Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-01T06:17:04.896252Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;file-roller %U&apos;" modified="2022-12-01T06:17:10.213964Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2022-12-01T06:17:10.658264Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.themes/Flat-Remix-Blue-Dark/gnome-shell/gnome-shell.css" added="2022-12-01T06:19:48.864993Z" modified="2022-12-01T06:33:04.892000Z" visited="2022-12-01T06:33:04.892000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;kate -b %U&apos;" modified="2022-12-01T06:19:48.864997Z" count="1"/>
+          <bookmark:application name="org.kde.kate" exec="kate -b %U %u" modified="2022-12-01T06:33:04.892000Z" count="19"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202022-12-01%2003-23-29.png" added="2022-12-01T06:23:29.899991Z" modified="2022-12-01T06:23:29.900000Z" visited="2022-12-01T06:23:29.899992Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2022-12-01T06:23:29.899997Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.themes/Big%20Transparent.zip" added="2022-12-01T18:05:48.334700Z" modified="2022-12-01T18:05:48.334708Z" visited="2022-12-01T18:05:48.334702Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-12-01T18:05:48.334704Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202022-12-01%2015-09-30.png" added="2022-12-01T18:09:30.214653Z" modified="2022-12-01T18:09:34.528848Z" visited="2022-12-01T18:09:33.874000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2022-12-01T18:09:30.214655Z" count="1"/>
+          <bookmark:application name="org.gnome.eog" exec="eog %U %u" modified="2022-12-01T18:09:33.874000Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2022-12-01T18:09:34.528846Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Documentos/dconf-settings-v5.txt" added="2022-12-02T05:39:47.741078Z" modified="2022-12-02T05:39:47.997609Z" visited="2022-12-02T05:39:47.741080Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-02T05:39:47.997601Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/b4625c24-f6eb-48bf-baf4-443e1ae00a39.jpeg" added="2022-12-02T05:40:23.727401Z" modified="2022-12-02T05:40:23.977753Z" visited="2022-12-02T05:40:23.727404Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2022-12-02T05:40:23.977748Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Imagens/icon-logo-biglinux.png" added="2022-12-02T06:07:15.944047Z" modified="2022-12-02T06:07:26.600773Z" visited="2022-12-02T06:07:15.944049Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Programa de manipulação de imagem do GNU" exec="&apos;gimp-2.10 %u&apos;" modified="2022-12-02T06:07:15.944053Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2022-12-02T06:07:26.600772Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Documentos" added="2022-12-05T21:34:50.456642Z" modified="2022-12-05T21:34:50.456646Z" visited="2022-12-05T21:34:50.456643Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-12-05T21:34:50.456644Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Documentos/gnome-orchis-setup-main" added="2022-12-05T21:34:58.195057Z" modified="2022-12-05T21:34:58.195063Z" visited="2022-12-05T21:34:58.195058Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-12-05T21:34:58.195060Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Documentos/gnome-orchis-setup-main/GNOME-Setup-01/Arcmenu-Config/orchis-arcmenu-settings" added="2022-12-05T21:35:10.205281Z" modified="2022-12-05T21:36:05.271707Z" visited="2022-12-05T21:35:10.205285Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;libreoffice --writer %U&apos;" modified="2022-12-05T21:35:10.205292Z" count="1"/>
+          <bookmark:application name="LibreOffice 7.4" exec="&apos;soffice %u&apos;" modified="2022-12-05T21:35:14.430711Z" count="2"/>
+          <bookmark:application name="org.gnome.Shell.Extensions" exec="&apos;org.gnome.Shell.Extensions %u&apos;" modified="2022-12-05T21:36:05.271699Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.local/share/arcmenu/stylesheet.css" added="2022-12-05T22:13:43.452234Z" modified="2022-12-05T22:13:58.982889Z" visited="2022-12-05T22:13:43.452235Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-12-05T22:13:58.982887Z" count="3"/>
+          <bookmark:application name="LibreOffice 7.4" exec="&apos;soffice %u&apos;" modified="2022-12-05T22:13:46.844814Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/Documentos/List%20AUR.txt" added="2022-12-05T22:20:19.433289Z" modified="2022-12-05T22:59:55.751299Z" visited="2022-12-05T22:20:19.433290Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-12-05T22:20:19.433291Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-12-05T22:59:55.751297Z" count="3"/>
+          <bookmark:application name="LibreOffice 7.4" exec="&apos;soffice %u&apos;" modified="2022-12-05T22:55:05.234575Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.local/share/gnome-shell/extensions/blur-my-shell@aunetx/stylesheet.css" added="2022-12-05T22:37:09.935143Z" modified="2022-12-05T22:40:03.822045Z" visited="2022-12-05T22:37:09.935144Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-12-05T22:40:03.822041Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ruscher/.local/share/gnome-shell/extensions/blur-my-shell@aunetx/components/overview.js" added="2022-12-05T22:43:11.808198Z" modified="2022-12-05T22:43:11.808202Z" visited="2022-12-05T22:43:11.808199Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-12-05T22:43:11.808200Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/wallpapers/Big-retro.jpg" added="2022-12-05T23:21:34.033261Z" modified="2022-12-05T23:21:41.321321Z" visited="2022-12-05T23:21:34.033262Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Ajustes do GNOME" exec="&apos;gnome-tweaks %u&apos;" modified="2022-12-05T23:21:41.321319Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/app-info/icons/archlinux-arch-community/64x64/tilix_com.gexperts.Tilix.png" added="2022-12-05T23:33:06.359741Z" modified="2022-12-05T23:34:53.759319Z" visited="2022-12-05T23:33:06.359744Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;bigocrimage %f&apos;" modified="2022-12-05T23:33:06.359749Z" count="1"/>
+          <bookmark:application name="org.gnome.Shell.Extensions" exec="&apos;org.gnome.Shell.Extensions %u&apos;" modified="2022-12-05T23:34:53.759316Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

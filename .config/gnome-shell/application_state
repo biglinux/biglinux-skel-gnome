@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="ca.desrt.dconf-editor.desktop" score="15" last-seen="1670276845"/>
+    <application id="libreoffice-writer.desktop" score="0" last-seen="1670276118"/>
+    <application id="org.gnome.tweaks.desktop" score="167" last-seen="1670287468"/>
+    <application id="brave-browser.desktop" score="842" last-seen="1670278228"/>
+    <application id="org.gnome.TextEditor.desktop" score="253" last-seen="1670289287"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="149" last-seen="1670289266"/>
+    <application id="gimp.desktop" score="4" last-seen="1670289267"/>
+    <application id="org.gnome.Characters.desktop" score="0" last-seen="1669770067"/>
+    <application id="org.gnome.FileRoller.desktop" score="2" last-seen="1669937398"/>
+    <application id="pamac-installer.desktop" score="0" last-seen="1669869952"/>
+    <application id="org.gnome.clocks.desktop" score="3" last-seen="1669784712"/>
+    <application id="org.inkscape.Inkscape.desktop" score="64" last-seen="1669870182"/>
+    <application id="org.gnome.eog.desktop" score="2" last-seen="1669918194"/>
+    <application id="org.gnome.Nautilus.desktop" score="449" last-seen="1670289869"/>
+    <application id="steam-native.desktop" score="32" last-seen="1670279417"/>
+    <application id="firefox.desktop" score="16" last-seen="1669779762"/>
+    <application id="org.gnome.Terminal.desktop" score="42" last-seen="1670289814"/>
+    <application id="org.gnome.Calculator.desktop" score="0" last-seen="1669937273"/>
+    <application id="gnome-system-monitor.desktop" score="2" last-seen="1669921137"/>
+    <application id="telegram-webapp-biglinux.desktop" score="151" last-seen="1670279392"/>
+    <application id="big-store.desktop" score="47" last-seen="1669937278"/>
+    <application id="org.kde.dolphin.desktop" score="10" last-seen="1669919558"/>
+    <application id="org.manjaro.pamac.manager.desktop" score="536" last-seen="1670288250"/>
+    <application id="org.gnome.Extensions.desktop" score="644" last-seen="1670289019"/>
+    <application id="org.gnome.Settings.desktop" score="185" last-seen="1670288805"/>
+  </context>
+</application-state>

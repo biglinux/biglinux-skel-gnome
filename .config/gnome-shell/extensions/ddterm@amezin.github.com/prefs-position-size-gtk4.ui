@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="ddterm@amezin.github.com">
+  <requires lib="gtk" version="4.0"/>
+  <object class="GtkAdjustment" id="window_size_adjustment">
+    <property name="upper">1</property>
+    <property name="step-increment">0.01</property>
+    <property name="page-increment">0.10</property>
+  </object>
+  <template class="DDTermPrefsPositionSize" parent="GtkGrid">
+    <property name="margin-start">10</property>
+    <property name="margin-end">10</property>
+    <property name="margin-top">10</property>
+    <property name="margin-bottom">10</property>
+    <property name="row-spacing">10</property>
+    <property name="column-spacing">10</property>
+    <child>
+      <object class="GtkLabel">
+        <property name="halign">start</property>
+        <property name="label" translatable="1">Window _size:</property>
+        <property name="use-underline">1</property>
+        <property name="mnemonic-widget">window_size_scale</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkScale" id="window_size_scale">
+        <property name="draw-value">1</property>
+        <property name="focusable">1</property>
+        <property name="hexpand">1</property>
+        <property name="adjustment">window_size_adjustment</property>
+        <property name="show-fill-level">1</property>
+        <property name="round-digits">2</property>
+        <property name="digits">2</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkLabel">
+        <property name="halign">start</property>
+        <property name="label" translatable="1">_Window position:</property>
+        <property name="use-underline">1</property>
+        <property name="mnemonic-widget">window_pos_combo</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkComboBoxText" id="window_pos_combo">
+        <property name="focusable">1</property>
+        <property name="hexpand">1</property>
+        <items>
+          <item id="top" translatable="yes">Top</item>
+          <item id="bottom" translatable="yes">Bottom</item>
+          <item id="left" translatable="yes">Left</item>
+          <item id="right" translatable="yes">Right</item>
+        </items>
+        <layout>
+          <property name="column">1</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkCheckButton" id="window_monitor_current_radio">
+        <property name="label" translatable="1">On the monitor that contains the mouse pointer</property>
+        <property name="action-name">settings.window-monitor</property>
+        <property name="action-target">&apos;current&apos;</property>
+        <property name="use-underline">1</property>
+        <property name="group">window_monitor_connector_radio</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">0</property>
+          <property name="column-span">2</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkCheckButton" id="window_monitor_primary_radio">
+        <property name="label" translatable="1">On the _primary monitor</property>
+        <property name="action-name">settings.window-monitor</property>
+        <property name="action-target">&apos;primary&apos;</property>
+        <property name="use-underline">1</property>
+        <property name="group">window_monitor_connector_radio</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">1</property>
+          <property name="column-span">2</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkCheckButton" id="window_monitor_focus_radio">
+        <property name="label" translatable="1">On the monitor with keyboard _focus</property>
+        <property name="action-name">settings.window-monitor</property>
+        <property name="action-target">&apos;focus&apos;</property>
+        <property name="use-underline">1</property>
+        <property name="group">window_monitor_connector_radio</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">2</property>
+          <property name="column-span">2</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkCheckButton" id="window_monitor_connector_radio">
+        <property name="label" translatable="1">On _monitor:</property>
+        <property name="action-name">settings.window-monitor</property>
+        <property name="action-target">&apos;connector&apos;</property>
+        <property name="use-underline">1</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkBox">
+        <property name="hexpand">1</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkComboBoxText" id="monitor_combo">
+            <property name="focusable">1</property>
+          </object>
+        </child>
+        <layout>
+          <property name="column">1</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+  </template>
+</interface>

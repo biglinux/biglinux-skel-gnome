@@ -1,0 +1,82 @@
+
+        .arcmenu-menu{
+            font-size: 12pt;
+            color: rgb(223,223,223);
+        }
+       .arcmenu-menu .popup-menu-content {
+            background-color: rgba(28,30,37,0.89);
+            border-color: rgba(64,64,64,0.78);
+            border-width: 1px;
+            border-radius: 25px;
+        }
+        .arcmenu-menu StButton {
+            color: rgb(223,223,223);
+            background-color: rgba(28,30,37,0.89);
+            border-width: 0px;
+            box-shadow: none;
+            border-radius: 8px;
+        }
+        .arcmenu-menu .popup-menu-item:focus, .arcmenu-menu .popup-menu-item:hover,
+        .arcmenu-menu .popup-menu-item:checked, .arcmenu-menu .popup-menu-item.selected,
+        .arcmenu-menu StButton:focus, .arcmenu-menu StButton:hover, .arcmenu-menu StButton:checked {
+            color: rgb(255,255,255);
+            background-color: rgb(21,83,158);
+        }
+        .arcmenu-menu .popup-menu-item:active, .arcmenu-menu StButton:active {
+            color: rgb(255,255,255);
+            background-color: rgb(25,98,163);
+        }
+        .arcmenu-menu .popup-menu-item:insensitive{
+            color: rgba(223, 223, 223, 0.6);
+            font-size: 10pt;
+        }
+        .arcmenu-menu .world-clocks-header, .arcmenu-menu .world-clocks-timezone,
+        .arcmenu-menu .weather-header{
+            color: rgba(223, 223, 223, 0.6);
+        }
+        .arcmenu-menu .world-clocks-time, .arcmenu-menu .world-clocks-city{
+            color: rgb(223,223,223);
+        }
+        .arcmenu-menu .weather-forecast-time{
+            color: rgba(200, 200, 200, 1.00);
+        }
+        .arcmenu-menu .popup-separator-menu-item .popup-separator-menu-item-separator{
+            background-color: rgb(60,60,60);
+        }
+        .arcmenu-menu .popup-separator-menu-item StLabel{
+            color: rgb(223,223,223);
+        }
+        .separator-color-style{
+            background-color: rgb(60,60,60);
+        }
+        .arcmenu-menu StEntry{
+            font-size: 12pt;
+            border-color: rgba(60, 60, 60, 0.1);
+            color: rgb(223,223,223);
+            background-color: rgba(25, 27, 33, 0.4);
+        }
+        .arcmenu-menu StEntry:hover{
+            border-color: rgb(21,83,158);
+            background-color: rgba(24, 26, 31, 0.4);
+        }
+        .arcmenu-menu StEntry:focus{
+            border-color: rgb(25,98,163);
+            background-color: rgba(22, 24, 30, 0.4);
+        }
+        .arcmenu-menu StLabel.hint-text{
+            color: rgba(223, 223, 223, 0.6);
+        }
+        .arcmenu-custom-tooltip{
+            font-size: 12pt;
+            color: rgb(223,223,223);
+            background-color: rgba(27, 29, 35, 1);
+        }
+        .arcmenu-small-button:hover{
+            box-shadow: inset 0 0 0 100px rgba(19, 75, 142, 1.00);
+        }
+        .arcmenu-menu .user-icon{
+            border-color: rgba(223, 223, 223, 0.7);
+        }
+        #ArcMenuSearchEntry{
+                                border-radius: 25px;
+                            }

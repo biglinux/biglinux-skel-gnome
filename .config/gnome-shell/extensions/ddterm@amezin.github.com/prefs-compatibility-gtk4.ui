@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="ddterm@amezin.github.com">
+  <requires lib="gtk" version="4.0"/>
+  <object class="GtkListStore" id="erase_binding_list">
+    <columns>
+      <column type="gchararray"/>
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Automatic</col>
+        <col id="1">auto</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Control-H</col>
+        <col id="1">ascii-backspace</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ASCII DEL</col>
+        <col id="1">ascii-delete</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Escape sequence</col>
+        <col id="1">delete-sequence</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">TTY Erase</col>
+        <col id="1">tty</col>
+      </row>
+    </data>
+  </object>
+  <template class="DDTermPrefsCompatibility" parent="GtkGrid">
+    <property name="margin-start">10</property>
+    <property name="margin-end">10</property>
+    <property name="margin-top">10</property>
+    <property name="margin-bottom">10</property>
+    <property name="row-spacing">10</property>
+    <property name="column-spacing">10</property>
+    <child>
+      <object class="GtkLabel">
+        <property name="halign">start</property>
+        <property name="label" translatable="1">_Backspace key generates:</property>
+        <property name="use-underline">1</property>
+        <property name="mnemonic-widget">backspace_binding_combo</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkLabel">
+        <property name="halign">start</property>
+        <property name="label" translatable="1">_Delete key generates:</property>
+        <property name="use-underline">1</property>
+        <property name="mnemonic-widget">delete_binding_combo</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkLabel">
+        <property name="halign">start</property>
+        <property name="label" translatable="1">Ambiguous-_width characters:</property>
+        <property name="use-underline">1</property>
+        <property name="mnemonic-widget">ambiguous_width_combo</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">2</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkComboBox" id="backspace_binding_combo">
+        <property name="hexpand">1</property>
+        <property name="model">erase_binding_list</property>
+        <property name="id-column">1</property>
+        <child>
+          <object class="GtkCellRendererText"/>
+          <attributes>
+            <attribute name="text">0</attribute>
+          </attributes>
+        </child>
+        <layout>
+          <property name="column">1</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkComboBox" id="delete_binding_combo">
+        <property name="hexpand">1</property>
+        <property name="model">erase_binding_list</property>
+        <property name="id-column">1</property>
+        <child>
+          <object class="GtkCellRendererText"/>
+          <attributes>
+            <attribute name="text">0</attribute>
+          </attributes>
+        </child>
+        <layout>
+          <property name="column">1</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkComboBoxText" id="ambiguous_width_combo">
+        <property name="hexpand">1</property>
+        <items>
+          <item id="narrow" translatable="yes">Narrow</item>
+          <item id="wide" translatable="yes">Wide</item>
+        </items>
+        <layout>
+          <property name="column">1</property>
+          <property name="row">2</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="GtkButton">
+        <property name="label" translatable="1">_Reset Compatibility Options to Defaults</property>
+        <property name="focusable">1</property>
+        <property name="receives-default">1</property>
+        <property name="action-name">aux.reset-compatibility-options</property>
+        <property name="use-underline">1</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="row">3</property>
+          <property name="column-span">2</property>
+        </layout>
+      </object>
+    </child>
+  </template>
+</interface>

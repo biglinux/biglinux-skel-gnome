@@ -1,3 +1,7 @@
+#panel {
+    background-color: rgba(13, 14, 18, 0.7);
+}
+
 .popup-menu-content, .candidate-popup-content {
     background-color: rgba(13, 14, 18, 0.7);
 }
@@ -42,7 +46,7 @@
 .notification-icon-button:insensitive,
 .modal-dialog-button:insensitive,
 .button:insensitive {
-    border-color: transparent/*#bdbfbd*/;
+    border-color: transparent;
     background-color: transparent;
 }
 

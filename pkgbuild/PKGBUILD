@@ -18,4 +18,5 @@ conflicts=('big-skel')
 
 package() {
     cp -r "${srcdir}/${pkgname}/etc/" "${pkgdir}/"
+    cp -r "${srcdir}/${pkgname}/usr/" "${pkgdir}/"
 }
