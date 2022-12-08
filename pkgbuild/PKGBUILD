@@ -11,6 +11,7 @@ license=('GPL3')
 provides=("$pkgname")
 source=("git+${url}.git")
 sha256sums=('SKIP')
+install=${pkgname}.install
 
 #bigskel=$(pacman -Ss biglinux-skel- | awk -F'[/ ]' '{print $2}')
 conflicts=('big-skel')
