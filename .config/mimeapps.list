@@ -1,0 +1,24 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-GZVBW1.desktop
+text/css=org.gnome.TextEditor.desktop
+text/plain=org.gnome.TextEditor.desktop
+image/png=org.gnome.eog.desktop
+image/svg+xml=org.gnome.eog.desktop
+application/x-shellscript=org.gnome.TextEditor.desktop
+application/xml=org.gnome.TextEditor.desktop
+image/jpeg=org.gnome.eog.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-Telegram Desktop-GZVBW1.desktop;
+text/css=org.gnome.TextEditor.desktop;
+text/plain=org.gnome.TextEditor.desktop;
+image/png=org.gnome.eog.desktop;
+image/svg+xml=org.gnome.eog.desktop;
+application/x-shellscript=nautilus-autorun-software.desktop;org.gnome.TextEditor.desktop;
+application/xml=org.gnome.TextEditor.desktop;
+image/jpeg=org.gnome.eog.desktop;
