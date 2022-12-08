@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm /usr/share/gnome-shell/gnome-shell-theme.gresource
+sudo cp /usr/share/gnome-shell/big-gnome-shell-theme.gresource  /usr/share/gnome-shell/gnome-shell-theme.gresource
+
