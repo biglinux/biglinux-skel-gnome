@@ -3,6 +3,15 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Default Background</name>
+    <filename>/usr/share/wallpapers/Big-gnome.jpg</filename>
+    <filename-dark>/usr/share/wallpapers/Big-tech.jpg</filename-dark>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Default Background</name>
     <filename>/usr/share/wallpapers/Big-retro.jpg</filename>
     <filename-dark>/usr/share/wallpapers/Big-tech.jpg</filename-dark>
     <options>stretched</options>
