@@ -266,4 +266,28 @@
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
+    <wallpaper deleted="false">
+    <name>narayan-01</name>
+    <filename>/usr/share/wallpapers/narayan01.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+      <wallpaper deleted="false">
+    <name>narayan-02</name>
+    <filename>/usr/share/wallpapers/narayan02.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+      <wallpaper deleted="false">
+    <name>narayan-03</name>
+    <filename>/usr/share/wallpapers/narayan03.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
 </wallpapers>
