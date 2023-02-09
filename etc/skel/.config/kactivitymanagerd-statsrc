@@ -1,0 +1,8 @@
+[Favorites-org.kde.plasma.kicker.favorites]
+ordering=bigcontrolcenter.desktop,applications:libreoffice-writer.desktop,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-33-82dd571b-19a5-41da-b9fa-e65d403c625b]
+ordering=applications:bigcontrolcenter.desktop,applications:libreoffice-writer.desktop,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-33-global]
+ordering=applications:bigcontrolcenter.desktop,applications:libreoffice-writer.desktop,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop

@@ -1,0 +1,12 @@
+[Core General]
+ObeyDRM=false
+
+[General]
+ttsEngine=
+
+[Main View]
+ShowLeftPanel=false
+SplitterSizes=265,501
+
+[PageView]
+MouseMode=TextSelect

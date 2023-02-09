@@ -1,0 +1,17 @@
+[AC][HandleButtonEvents]
+lidAction=1
+powerButtonAction=1
+powerDownAction=16
+triggerLidActionWhenExternalMonitorPresent=false
+
+[Battery][HandleButtonEvents]
+lidAction=1
+powerButtonAction=1
+powerDownAction=16
+triggerLidActionWhenExternalMonitorPresent=false
+
+[LowBattery][HandleButtonEvents]
+lidAction=1
+powerButtonAction=1
+powerDownAction=16
+triggerLidActionWhenExternalMonitorPresent=false
