@@ -1,0 +1,32 @@
+[Desktop Entry]
+DefaultProfile=Perfil 1.profile
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+listViewIconSize=15
+
+[KonsoleWindow]
+AllowMenuAccelerators=true
+
+[MainWindow]
+Height 960=486
+Height 964=585
+Height 965=450
+Height 969=480
+RestorePositionForNextInstance=true
+State=AAAA/wAAAAD9AAAAAAAAA4AAAAGPAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIAAAAB3/////8AAAAAAAAAAA==
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Virtual-1 Height 1024x768=425
+Virtual-1 Width 1024x768=896
+Virtual-1 XPosition 1024x768=83
+Virtual-1 YPosition 1024x768=202
+Width 1912=899
+Width 1920=928
+
+[TabBar]
+NewTabButton=true
+ShowQuickButtons=true
+TabBarVisibility=AlwaysShowTabBar

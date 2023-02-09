@@ -1,0 +1,207 @@
+[General]
+Allow Tab Scrolling=false
+Close After Last=false
+Config Revision=10
+Days Meta Infos=30
+Elide Tab Text=false
+Expand Tabs=false
+Last Session=
+Modified Notification=false
+Quickopen List Mode=false
+Recent File List Entry Count=10
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=false
+Show Status Bar=true
+Show Tab Bar=true
+Show Tabs Close Button=true
+Show Url Nav Bar=false
+Show output view for message type=1
+Startup Session=manual
+Stash new unsaved files=true
+Stash unsaved file changes=false
+Tab Double Click New Document=true
+Tab Middle Click Close Document=true
+Show welcome view for new window=false
+Tabbar Tab Limit=0
+
+[KFileDialog Settings]
+detailViewIconSize=0
+iconViewIconSize=43
+listViewIconSize=16
+
+[KPropertiesDialog]
+VGA-1 Height 1920x974=509
+VGA-1 Width 1920x974=472
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=14096
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO-8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Breeze Light
+Font=Ubuntu Mono,13,-1,5,50,0,0,0,0,0
+Line Height Multiplier=1
+Schema=Normal
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=false
+Auto Center Lines=0
+Auto Completion=true
+Auto Completion Preselect First Entry=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Bracket Match Preview=false
+Chars To Enclose Selection=<>(){}[]
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Fold First Line=false
+Folding Bar=false
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=false
+Line Numbers=false
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Multiple Cursor Modifier=134217728
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=false
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=false
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=140
+Show Documentation With Completion=true
+Show Focus Frame Around Editor=true
+Show Folding Icons On Hover Only=true
+Show Line Count=true
+Show Scrollbars=0
+Show Word Count=false
+Smart Copy Cut=false
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+
+[MainWindow]
+Height 952=480
+Height 960=516
+Height 964=781
+Height 965=480
+Height 969=501
+ToolBarsMovable=Disabled
+VGA-1 Height 1280x720=529
+VGA-1 Height 1920x974=480
+VGA-1 Width 1280x720=805
+VGA-1 Width 1920x974=649
+VGA-1 XPosition 1920x974=526
+VGA-1 YPosition 1920x974=180
+Virtual1 Height 1920x955=610
+Virtual1 Width 1920x955=1181
+Virtual1 XPosition 1920x955=197
+Virtual1 YPosition 1920x955=254
+Width 1912=813
+Width 1920=871
+
+[Notification Messages]
+HideMenuBarWarning=false
+
+[Printing][HeaderFooter]
+FooterBackground=211,211,211
+FooterBackgroundEnabled=false
+FooterEnabled=true
+FooterForeground=0,0,0
+FooterFormatCenter=
+FooterFormatLeft=
+FooterFormatRight=%U
+HeaderBackground=211,211,211
+HeaderBackgroundEnabled=false
+HeaderEnabled=true
+HeaderFooterFont=Ubuntu,11,-1,5,50,0,0,0,0,0,Regular
+HeaderForeground=0,0,0
+HeaderFormatCenter=%f
+HeaderFormatLeft=%y
+HeaderFormatRight=%p
+
+[Printing][Layout]
+BackgroundColorEnabled=false
+BoxColor=invalid
+BoxEnabled=false
+BoxMargin=6
+BoxWidth=1
+ColorScheme=Printing
+
+[Printing][Text]
+Legend=false
+LineNumbers=false
+
+[UiSettings]
+ColorScheme=
+
+[filetree]
+editShade=179,218,246
+listMode=false
+shadingEnabled=true
+showCloseButton=false
+showFullPathOnRoots=false
+showToolbar=true
+sortRole=0
+viewShade=193,208,209

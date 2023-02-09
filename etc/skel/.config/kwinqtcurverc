@@ -1,0 +1,13 @@
+[ActiveShadows]
+Color=75,75,75
+ColorType=5
+HOffset=10
+Size=29
+VOffset=20
+
+[General]
+BorderSize=3
+CustomShadows=true
+EdgePad=3
+InnerBorder=0
+OuterBorder=0

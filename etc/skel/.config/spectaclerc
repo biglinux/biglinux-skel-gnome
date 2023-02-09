@@ -1,0 +1,30 @@
+[General]
+autoSaveImage=false
+clipboardGroup=PostScreenshotCopyImage
+default-save-image-format=webp
+onLaunchAction=UseLastUsedCapturemode
+rememberLastRectangularRegion=UntilSpectacleIsClosed
+save-filename-format=Screenshot_%Y%M%D_%H%m%S
+showMagnifier=true
+
+[GuiConfig]
+alwaysRememberRegion=false
+compressionQuality=90
+cropRegion=0,0,0,0
+printKeyActionRunning=0
+rememberLastRectangularRegion=true
+showMagnifier=true
+useLightMaskColour=false
+useReleaseToCapture=true
+window-position=0,0
+
+[Open-with settings]
+CompletionMode=1
+History=
+
+[Save]
+compressionQuality=80
+defaultSaveImageFormat=WEBP
+
+[KFileDialog Settings]
+listViewIconSize=15

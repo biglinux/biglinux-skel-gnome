@@ -1,0 +1,17 @@
+[General Settings]
+Cardname=svg-ancient-egyptians
+
+[KgTheme]
+Theme=themes/greenblaze.desktop
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAMgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Scores]
+loosestreak0=1
+maxloosestreak0=1
+maxwinstreak0=0
+total0=1
+winstreak0=0
+won0=0

@@ -1,0 +1,68 @@
+[Kate Plugins]
+externaltoolsplugin=false
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katecolorpickerplugin=false
+katectagsplugin=false
+katefilebrowserplugin=false
+katefiletreeplugin=false
+kategdbplugin=false
+kategitblameplugin=false
+katekonsoleplugin=false
+kateopenheaderplugin=false
+kateprojectplugin=false
+katereplicodeplugin=false
+katesearchplugin=false
+katesnippetsplugin=false
+katesqlplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+ktexteditorpreviewplugin=false
+lspclientplugin=false
+tabswitcherplugin=false
+textfilterplugin=false
+
+[MainWindow0]
+Active ViewSpace=0
+Kate-MDI-H-Splitter=200,649,200
+Kate-MDI-Sidebar-0-Splitter=
+Kate-MDI-Sidebar-1-Splitter=
+Kate-MDI-Sidebar-2-Splitter=
+Kate-MDI-Sidebar-3-Splitter=0
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-output-Persistent=false
+Kate-MDI-ToolView-output-Position=3
+Kate-MDI-ToolView-output-Sidebar-Position=0
+Kate-MDI-ToolView-output-Visible=false
+Kate-MDI-V-Splitter=150,448,200
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAokAAAHAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+VGA-1 Height 1920x974=480
+VGA-1 Width 1920x974=649
+VGA-1 XPosition 1920x974=635
+VGA-1 YPosition 1920x974=242
+
+[MainWindow0 Settings]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAokAAAHAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+VGA-1 Height 1920x974=480
+VGA-1 Width 1920x974=649
+VGA-1 XPosition 1920x974=635
+VGA-1 YPosition 1920x974=242
+WindowState=8
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Orientation=1
+Sizes=649
+
+[Open Documents]
+Count=1
+
+[Open MainWindows]
+Count=1

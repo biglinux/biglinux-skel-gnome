@@ -1,0 +1,68 @@
+Height 960=579
+Height 969=472
+State=AAAA/wAAAAD9AAAAAAAABrsAAANvAAAABAAAAAQAAAAIAAAACPwAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAADAAAAAA==
+VGA-1 Height 1920x974=629
+VGA-1 Width 1920x974=1039
+VGA-1 Window-Maximized 1920x974=true
+VGA-1 XPosition 1920x974=0
+VGA-1 YPosition 1920x974=33
+Width 1912=1019
+Width 1920=786
+
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+DefaultExportPluginText=Exportar para o &Google Drive...
+
+[ImageView]
+AnimationMethod=DocumentView::NoAnimation
+MouseWheelBehavior=MouseWheelBehavior::Browse
+ThumbnailSplitterSizes=529,94
+
+[KFileDialog Settings]
+listViewIconSize=16
+
+[KPropertiesDialog]
+Height 960=393
+VGA-1 Height 1920x974=421
+VGA-1 Width 1920x974=444
+Width 1912=475
+
+[MainWindow]
+Height 774=480
+Height 960=895
+Height 969=472
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA3EAAAK1AAAABAAAAAQAAAAIAAAACPwAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAADAAAAAA==
+ToolBarsMovable=Disabled
+VGA-1 Height 1920x974=613
+VGA-1 Width 1920x974=1164
+VGA-1 XPosition 1920x974=378
+VGA-1 YPosition 1920x974=179
+Virtual-1 Height 1024x768=693
+Virtual-1 Width 1024x768=1020
+Virtual-1 XPosition 1024x768=2
+Virtual-1 YPosition 1024x768=33
+Width 1320=786
+Width 1912=1647
+Width 1920=786
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=16
+
+[Notification Messages]
+HideMenuBarWarning=false
+
+[Print]
+PrintHeight=9.98
+
+[SideBar]
+IsVisible ViewMode=false
+SideBarSplitterSizes=173,679
+
+[ThumbnailView]
+ListVideos=false
+
+[Toolbar mainToolBar]
+IconSize=16
