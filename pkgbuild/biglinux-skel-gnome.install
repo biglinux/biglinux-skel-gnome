@@ -12,6 +12,21 @@ post_install() {
 
 bash /usr/share/libalpm/scripts/big-gdm-greeter
 
+#descobrir o nome do usuario
+who=$(who | awk '{ print $1 }' | head -n 1)
+rsync -Caz /etc/skel/ /home/$who/
+chown $who:$who -R /home/$who/
+
+yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
+        --align=center \
+        --field=$"<b>Necessario reiniciar o sistema para aplicar as mudanças.</b>
+        :LBL" \
+        --button=$" Reiniciar":0 \
+        --center --on-top --borders=20 --title=$"Atualização de Skel" \
+        --window-icon=emblem-warning
+        if [ "$?" = "0" ];then
+            reboot
+        fi
 }
 ## arg 2:  the old package version
 #pre_upgrade() {
