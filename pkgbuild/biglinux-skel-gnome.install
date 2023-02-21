@@ -11,7 +11,7 @@
 post_install() {
 
 # Substitui o bash por zsh
-sed -i '/SHELL=/s/SHELL=.*/SHELL=\/usr\/sbin\/zsh/' /etc/default/useradd
+sed -i '/SHELL=/s/SHELL=.*/SHELL=\/bin\/zsh/' /etc/default/useradd
 
 # Ativa Wayland
 sed -i '/WaylandEnable=/s/WaylandEnable=.*/WaylandEnable=true/' /etc/gdm/custom.conf
