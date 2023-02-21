@@ -10,6 +10,12 @@
 ## arg 1:  the new package version
 post_install() {
 
+# Substitui o bash por zsh
+sed -i '/SHELL=/s/SHELL=.*/SHELL=\/usr\/sbin\/zsh/' /etc/default/useradd
+
+# Ativa Wayland
+sed -i '/WaylandEnable=/s/WaylandEnable=.*/WaylandEnable=true/' /etc/gdm/custom.conf
+
 bash /usr/share/libalpm/scripts/big-gdm-greeter
 
 #descobrir o nome do usuario
