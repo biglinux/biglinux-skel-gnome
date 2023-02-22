@@ -25,6 +25,7 @@ yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixe
         --field=$"<b>Necessario reiniciar o sistema para aplicar as mudanças.</b>
         :LBL" \
         --button=$" Reiniciar":0 \
+        --button=$" Fechar":1 \
         --center --on-top --borders=20 --title=$"Atualização de Skel" \
         --window-icon=emblem-warning
         if [ "$?" = "0" ];then
