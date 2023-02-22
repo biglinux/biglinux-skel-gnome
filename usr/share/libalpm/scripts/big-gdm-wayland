@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Ativa Wayland
+sed -i '/WaylandEnable=/s/WaylandEnable=.*/WaylandEnable=true/' /etc/gdm/custom.conf
