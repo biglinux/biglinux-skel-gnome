@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Add startgnome-biglinux in gnome-session
+if [ "$(grep startgnome-biglinux /usr/bin/gnome-session)" = "" ]; then
+    sed '/gnome-session-binary/i /usr/bin/startgnome-biglinux' /usr/bin/gnome-session
+fi
