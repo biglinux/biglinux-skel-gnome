@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=System;
 Exec=big-kernel-manager
-Icon=/usr/share/bigbashview/bcc/apps/drivers/hardware-info.svg
+Icon=/usr/share/bigbashview/bcc/apps/drivers/icon-kernel.svg
 Name=Install Kernel and Desktop Versions
 Terminal=false
 Type=Application
