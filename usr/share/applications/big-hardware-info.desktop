@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Settings;
+Exec=big-hardware-info
+Icon=/usr/share/bigbashview/bcc/apps/bigcontrolcenter/icons/relatory.png
+Name=System and Hardware Information
+Terminal=false
+Type=Application

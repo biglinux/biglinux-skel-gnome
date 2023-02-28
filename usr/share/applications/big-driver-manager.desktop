@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Settings;
+Exec=big-driver-manager
+Icon=/usr/share/bigbashview/bcc/apps/bigcontrolcenter/icons/driver.png
+Name=Install Drivers and Firmware
+Terminal=false
+Type=Application 
