@@ -1,5 +1,5 @@
 [Desktop Entry]
-Categories=Settings;
+Categories=BigApps;
 Exec=big-hardware-info
 Icon=/usr/share/bigbashview/bcc/apps/drivers/hardware-info.svg
 Name=System and Hardware Information
