@@ -1,5 +1,5 @@
 [Desktop Entry]
-Categories=System;
+Categories=BigApps;
 Exec=big-kernel-manager
 Icon=/usr/share/bigbashview/bcc/apps/drivers/icon-kernel.svg
 Name=Install Kernel and Desktop Versions
