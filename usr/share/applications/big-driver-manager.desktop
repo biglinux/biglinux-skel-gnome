@@ -1,5 +1,5 @@
 [Desktop Entry]
-Categories=Settings;
+Categories=BigApps;
 Exec=big-driver-manager
 Icon=/usr/share/bigbashview/bcc/apps/drivers/icon-drivers.svg
 Name=Install Drivers and Firmware
