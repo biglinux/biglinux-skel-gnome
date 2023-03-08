@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = gnome-control-center
+
+[Action]
+Description = Change About logo from Gnome to BigLinux
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/biglinux-text-rounded
