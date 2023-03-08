@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="800"
+   height="300"
+   viewBox="0 0 211.66666 79.374998"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="big-logo-escrito-branco.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.7483165"
+     inkscape:cx="162.36445"
+     inkscape:cy="242.54443"
+     inkscape:window-width="2560"
+     inkscape:window-height="992"
+     inkscape:window-x="1680"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient966"
+       id="linearGradient640"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27347771,0,0,0.27347771,-2.9872504,4.9370858)"
+       x1="87.997589"
+       y1="192.45601"
+       x2="284.63544"
+       y2="59.889709" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient966">
+      <stop
+         style="stop-color:#2d85c6;stop-opacity:1;"
+         offset="0"
+         id="stop962" />
+      <stop
+         style="stop-color:#04bacc;stop-opacity:1;"
+         offset="1"
+         id="stop964" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:24.5043px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';fill:#ffffff;stroke:none;stroke-width:5.49899;stroke-linecap:round;stroke-linejoin:round"
+       x="84.654823"
+       y="46.573208"
+       id="text638"><tspan
+         sodipodi:role="line"
+         id="tspan636"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Lexend Deca';-inkscape-font-specification:'Lexend Deca Semi-Bold';stroke:none;stroke-width:5.49899;fill:#ffffff"
+         x="84.654823"
+         y="46.573208">BigLinux</tspan></text>
+    <path
+       id="path3773-7"
+       style="fill:url(#linearGradient640);fill-opacity:1;stroke-width:0.101849"
+       class="cls-2"
+       d="m 64.424298,21.261067 c -0.574492,-0.0011 -1.18172,0.04714 -1.82844,0.157121 -10.347849,1.726309 -9.900836,13.7592 -9.900836,13.7592 0,0 -0.0105,5.32809 4.969693,8.02196 4.13914,2.383293 6.518134,-0.195356 6.92556,-0.601572 0.407466,-0.406423 8.81742,-10.934965 7.464852,9.065155 0,0 2.96177,-3.222224 3.147171,-10.896525 0.185407,-7.674354 -4.744484,-8.140538 -4.744484,-8.140538 0,0 -2.18102,-0.546944 -6.510646,4.131023 -4.329576,4.677916 -4.631824,4.468837 -4.631824,4.468837 0,0 -1.222521,0.861504 -1.366134,-1.306895 -0.143506,-2.168348 -0.613041,-8.740589 5.997958,-12.29822 6.611049,-3.557575 9.82081,5.156357 9.82081,5.156357 0,0 -0.726537,-11.500717 -9.34368,-11.515851 z M 45.882122,26.23369 a 3.5137967,4.6860808 77.92 0 0 -1.318737,0.136173 3.5137967,4.6860808 77.92 0 0 -3.846525,4.418454 3.5137967,4.6860808 77.92 0 0 5.316414,2.453735 3.5137967,4.6860808 77.92 0 0 3.846525,-4.415519 3.5137967,4.6860808 77.92 0 0 -3.997677,-2.592998 z M 23.9794,27.703524 c 0,0 -2.958837,3.226203 -3.144187,10.899509 -0.185406,7.673306 4.744479,8.146455 4.744479,8.146455 0,0 2.178041,0.546945 6.507666,-4.131023 4.329627,-4.677916 4.63481,-4.468837 4.63481,-4.468837 0,0 1.22252,-0.861503 1.366133,1.306896 0.143506,2.16835 0.611106,8.740643 -6.000943,12.298219 -6.612042,3.557576 -9.820809,-5.156354 -9.820809,-5.156354 0,0 0.824163,13.084142 11.175104,11.35878 10.350941,-1.725314 9.897851,-13.7592 9.897851,-13.7592 0,0 0.0105,-5.322957 -4.972621,-8.02196 -4.139197,-2.383293 -6.518141,0.192213 -6.925561,0.598585 -0.407471,0.406426 -8.813441,10.935176 -7.461922,-9.07107 z m 23.144413,6.41585 a 3.5840729,3.5840729 0 0 0 -3.470171,4.682209 c 0,0 2.096079,8.298498 13.311719,8.564299 0,0 -6.4787,-4.63921 -6.326921,-9.936348 a 3.5840729,3.5840729 0 0 0 -3.514627,-3.31016 z" />
+  </g>
+</svg>
