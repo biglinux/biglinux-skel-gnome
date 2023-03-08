@@ -1,0 +1,9 @@
+#!/bin/sh
+# Change About logo from Gnome to BigLinux
+
+# Verifica se os arquivos originais existem
+if [ -f "/usr/share/icons/manjaro/manjarolinux-text-rounded.svg" ] && [ -f "/usr/share/icons/manjaro/manjarolinux-text-dark-rounded.svg" ]; then
+  # Realiza a substituição dos arquivos
+  mv -f /usr/share/icons/manjaro/manjarolinux-text-rounded.svg /usr/share/icons/manjaro/biglinux-text-rounded.svg
+  mv -f /usr/share/icons/manjaro/manjarolinux-text-dark-rounded.svg /usr/share/icons/manjaro/biglinux-text-dark-rounded.svg
+fi
