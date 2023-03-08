@@ -3,6 +3,7 @@ Type = Package
 Operation = Install
 Operation = Upgrade
 Target = gnome-control-center
+Target = biglinux-skel-gnome
 
 [Action]
 Description = Change About logo from Gnome to BigLinux
