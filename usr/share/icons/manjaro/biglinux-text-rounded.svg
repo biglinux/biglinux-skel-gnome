@@ -2,82 +2,95 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="800"
-   height="300"
-   viewBox="0 0 211.66666 79.374998"
-   version="1.1"
-   id="svg5"
+   version="1.2"
+   width="340"
+   height="200.00002"
+   id="svg2"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="big-logo-escrito.svg"
+   sodipodi:docname="manjarolinux-text-rounded.svg"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><sodipodi:namedview
+     pagecolor="#585858"
+     bordercolor="#424242"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     id="namedview15"
      showgrid="false"
-     inkscape:zoom="0.7483165"
-     inkscape:cx="162.36445"
-     inkscape:cy="242.54443"
-     inkscape:window-width="2560"
-     inkscape:window-height="992"
-     inkscape:window-x="1680"
-     inkscape:window-y="0"
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.7699772"
+     inkscape:cx="211.30216"
+     inkscape:cy="131.64011"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs2">
-    <linearGradient
+     inkscape:current-layer="svg2"
+     inkscape:pagecheckerboard="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:deskcolor="#585858"><inkscape:grid
+       type="xygrid"
+       id="grid837"
+       originx="141.00642"
+       originy="184.06879" /></sodipodi:namedview><defs
+     id="defs4"><linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient966"
        id="linearGradient640"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.27347771,0,0,0.27347771,-2.9872504,4.9370858)"
+       gradientTransform="matrix(1.0336166,0,0,1.0336166,-254.21734,155.81625)"
        x1="87.997589"
        y1="192.45601"
        x2="284.63544"
-       y2="59.889709" />
-    <linearGradient
+       y2="59.889709" /><linearGradient
        inkscape:collect="always"
-       id="linearGradient966">
-      <stop
+       id="linearGradient966"><stop
          style="stop-color:#2d85c6;stop-opacity:1;"
          offset="0"
-         id="stop962" />
-      <stop
+         id="stop962" /><stop
          style="stop-color:#04bacc;stop-opacity:1;"
          offset="1"
-         id="stop964" />
-    </linearGradient>
-  </defs>
-  <g
-     inkscape:label="Camada 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:24.5043px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';fill:#000000;stroke:none;stroke-width:5.49899;stroke-linecap:round;stroke-linejoin:round"
-       x="84.654823"
-       y="46.573208"
-       id="text638"><tspan
-         sodipodi:role="line"
-         id="tspan636"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Lexend Deca';-inkscape-font-specification:'Lexend Deca Semi-Bold';stroke:none;stroke-width:5.49899"
-         x="84.654823"
-         y="46.573208">BigLinux</tspan></text>
-    <path
-       id="path3773-7"
-       style="fill:url(#linearGradient640);fill-opacity:1;stroke-width:0.101849"
-       class="cls-2"
-       d="m 64.424298,21.261067 c -0.574492,-0.0011 -1.18172,0.04714 -1.82844,0.157121 -10.347849,1.726309 -9.900836,13.7592 -9.900836,13.7592 0,0 -0.0105,5.32809 4.969693,8.02196 4.13914,2.383293 6.518134,-0.195356 6.92556,-0.601572 0.407466,-0.406423 8.81742,-10.934965 7.464852,9.065155 0,0 2.96177,-3.222224 3.147171,-10.896525 0.185407,-7.674354 -4.744484,-8.140538 -4.744484,-8.140538 0,0 -2.18102,-0.546944 -6.510646,4.131023 -4.329576,4.677916 -4.631824,4.468837 -4.631824,4.468837 0,0 -1.222521,0.861504 -1.366134,-1.306895 -0.143506,-2.168348 -0.613041,-8.740589 5.997958,-12.29822 6.611049,-3.557575 9.82081,5.156357 9.82081,5.156357 0,0 -0.726537,-11.500717 -9.34368,-11.515851 z M 45.882122,26.23369 a 3.5137967,4.6860808 77.92 0 0 -1.318737,0.136173 3.5137967,4.6860808 77.92 0 0 -3.846525,4.418454 3.5137967,4.6860808 77.92 0 0 5.316414,2.453735 3.5137967,4.6860808 77.92 0 0 3.846525,-4.415519 3.5137967,4.6860808 77.92 0 0 -3.997677,-2.592998 z M 23.9794,27.703524 c 0,0 -2.958837,3.226203 -3.144187,10.899509 -0.185406,7.673306 4.744479,8.146455 4.744479,8.146455 0,0 2.178041,0.546945 6.507666,-4.131023 4.329627,-4.677916 4.63481,-4.468837 4.63481,-4.468837 0,0 1.22252,-0.861503 1.366133,1.306896 0.143506,2.16835 0.611106,8.740643 -6.000943,12.298219 -6.612042,3.557576 -9.820809,-5.156354 -9.820809,-5.156354 0,0 0.824163,13.084142 11.175104,11.35878 10.350941,-1.725314 9.897851,-13.7592 9.897851,-13.7592 0,0 0.0105,-5.322957 -4.972621,-8.02196 -4.139197,-2.383293 -6.518141,0.192213 -6.925561,0.598585 -0.407471,0.406426 -8.813441,10.935176 -7.461922,-9.07107 z m 23.144413,6.41585 a 3.5840729,3.5840729 0 0 0 -3.470171,4.682209 c 0,0 2.096079,8.298498 13.311719,8.564299 0,0 -6.4787,-4.63921 -6.326921,-9.936348 a 3.5840729,3.5840729 0 0 0 -3.514627,-3.31016 z" />
-  </g>
-</svg>
+         id="stop964" /></linearGradient></defs><metadata
+     id="metadata7"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><g
+     id="g1287"><rect
+       style="fill:none;stroke-width:0.752768"
+       id="rect289"
+       width="340"
+       height="200.00002"
+       x="2.1664619e-07"
+       y="2.2922136e-07"
+       rx="1.1333333" /><g
+       id="g1271"
+       transform="matrix(0.52658013,0,0,0.52658013,86.463914,-20.40738)"><text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:92.6147px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';fill:#4f4f4f;fill-opacity:1;stroke:none;stroke-width:20.7836;stroke-linecap:round;stroke-linejoin:round"
+         x="77.028297"
+         y="313.18112"
+         id="text638"><tspan
+           sodipodi:role="line"
+           id="tspan636"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Lexend Deca';-inkscape-font-specification:'Lexend Deca Semi-Bold';fill:#4f4f4f;fill-opacity:1;stroke:none;stroke-width:20.7836"
+           x="77.028297"
+           y="313.18112">BigLinux</tspan></text><path
+         id="path3773-7"
+         style="fill:url(#linearGradient640);fill-opacity:1;stroke-width:0.384941"
+         class="cls-2"
+         d="m 0.5664724,217.51319 c -2.1713084,-0.004 -4.4663434,0.17817 -6.9106394,0.59384 -39.109981,6.52464 -37.420483,52.00328 -37.420483,52.00328 0,0 -0.03968,20.13766 18.783092,30.31922 15.6439938,9.00772 24.63546724,-0.73836 26.1753451,-2.27366 1.5400289,-1.53609 33.3256819,-41.329 28.2136139,34.262 0,0 11.194092,-12.17848 11.89482,-41.18371 0.700751,-29.00544 -17.931908,-30.76739 -17.931908,-30.76739 0,0 -8.243226,-2.06719 -24.6071666,15.61331 -16.3637524,17.68032 -17.5061064,16.8901 -17.5061064,16.8901 0,0 -4.620552,3.25607 -5.163341,-4.93945 -0.542385,-8.19533 -2.317006,-33.0353 22.6694474,-46.48146 24.9866426,-13.44595 37.1180226,19.48859 37.1180226,19.48859 0,0 -2.745967,-43.46727 -35.3146966,-43.52447 z m -70.0806664,18.79417 a 13.280492,17.711172 77.92 0 0 -4.984202,0.51467 13.280492,17.711172 77.92 0 0 -14.538048,16.69966 13.280492,17.711172 77.92 0 0 20.093534,9.27396 13.280492,17.711172 77.92 0 0 14.538047,-16.68857 13.280492,17.711172 77.92 0 0 -15.109331,-9.80031 z m -82.781946,5.55527 c 0,0 -11.183,12.19353 -11.88354,41.195 -0.70074,29.00147 17.93189,30.78975 17.93189,30.78975 0,0 8.23197,2.06719 24.59591,-15.61332 16.36394,-17.68031 17.51739,-16.89009 17.51739,-16.89009 0,0 4.620546,-3.25607 5.163335,4.93945 0.542385,8.19534 2.309692,33.0355 -22.680725,46.48146 -24.9904,13.44596 -37.11802,-19.48858 -37.11802,-19.48858 0,0 3.11494,49.45187 42.23661,42.93082 39.121668,-6.52087 37.409202,-52.00328 37.409202,-52.00328 0,0 0.03969,-20.11826 -18.794159,-30.31922 -15.644213,-9.00772 -24.635493,0.72648 -26.175353,2.26237 -1.54004,1.5361 -33.31064,41.3298 -28.20254,-34.28436 z m 87.474952,24.24889 a 13.546102,13.546102 0 0 0 -13.115607,17.69653 c 0,0 7.922188,31.36441 50.312009,32.36901 0,0 -24.486425,-17.53402 -23.912772,-37.5547 a 13.546102,13.546102 0 0 0 -13.28363,-12.51084 z" /></g></g></svg>
