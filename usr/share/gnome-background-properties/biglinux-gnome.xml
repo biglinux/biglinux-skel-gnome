@@ -2,289 +2,169 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>Default Background</name>
-    <filename>/usr/share/wallpapers/Big-gnome.avif</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Big-retro</name>
-    <filename>/usr/share/wallpapers/Big-retro.jpg</filename>
-    <filename-dark>/usr/share/wallpapers/Big-tech.jpg</filename-dark>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>antelope-canyon</name>
-    <filename>/usr/share/wallpapers/antelope-canyon.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>beach2</name>
-    <filename>/usr/share/wallpapers/beach2.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>beach3</name>
-    <filename>/usr/share/wallpapers/beach3.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>beach4</name>
-    <filename>/usr/share/wallpapers/beach4.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>beach5</name>
-    <filename>/usr/share/wallpapers/beach5.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>beach</name>
-    <filename>/usr/share/wallpapers/beach.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>BigBrasil</name>
-    <filename>/usr/share/wallpapers/BigBrasil.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Big-head</name>
-    <filename>/usr/share/wallpapers/Big-head.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Big-new</name>
-    <filename>/usr/share/wallpapers/Big-new.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-  <name>Big-retro</name>
-    <filename>/usr/share/wallpapers/Big-retro.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Big-Ruscher</name>
-    <filename>/usr/share/wallpapers/Big-Ruscher.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Big-smoke</name>
-    <filename>/usr/share/wallpapers/Big-smoke.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Big-tech</name>
-    <filename>/usr/share/wallpapers/Big-tech.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>blur</name>
-    <filename>/usr/share/wallpapers/blur.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>bull</name>
-    <filename>/usr/share/wallpapers/bull.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>dandelion2</name>
-    <filename>/usr/share/wallpapers/dandelion2.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>dandelion</name>
-    <filename>/usr/share/wallpapers/dandelion.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>drop</name>
-    <filename>/usr/share/wallpapers/drop.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>flower</name>
-    <filename>/usr/share/wallpapers/flower.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>green-and-blue</name>
-    <filename>/usr/share/wallpapers/green-and-blue.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>jelly</name>
-    <filename>/usr/share/wallpapers/jelly.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>mimosa</name>
-    <filename>/usr/share/wallpapers/mimosa.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>plouzane</name>
-    <filename>/usr/share/wallpapers/plouzane.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>poppy</name>
-    <filename>/usr/share/wallpapers/poppy.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>robot</name>
-    <filename>/usr/share/wallpapers/robot.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>santa-cruz</name>
-    <filename>/usr/share/wallpapers/santa-cruz.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>sea</name>
-    <filename>/usr/share/wallpapers/sea.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>short-eared-owl</name>
-    <filename>/usr/share/wallpapers/short-eared-owl.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>sunset</name>
-    <filename>/usr/share/wallpapers/sunset.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>thunderstorm</name>
-    <filename>/usr/share/wallpapers/thunderstorm.jpg</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>tree</name>
-    <filename>/usr/share/wallpapers/tree.jpg</filename>
+    <name>Purple Wave</name>
+    <filename>/usr/share/wallpapers/biglinux-purple-wave.avif</filename>
+    <filename-dark>/usr/share/wallpapers/biglinux-dark-wave.avif</filename-dark>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
     <wallpaper deleted="false">
-    <name>narayan-01</name>
-    <filename>/usr/share/wallpapers/narayan01.avif</filename>
+    <name>Astronaut Earth</name>
+    <filename>/usr/share/wallpapers/astronaut-earth.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
-      <wallpaper deleted="false">
-    <name>narayan-02</name>
-    <filename>/usr/share/wallpapers/narayan02.avif</filename>
+  <wallpaper deleted="false">
+    <name>Beach Sundawn</name>
+    <filename>/usr/share/wallpapers/beach-sundawn.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
-      <wallpaper deleted="false">
-    <name>narayan-03</name>
-    <filename>/usr/share/wallpapers/narayan03.avif</filename>
+  <wallpaper deleted="false">
+    <name>Black Warrior</name>
+    <filename>/usr/share/wallpapers/biglinux-black-warrior.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Chinese Warrior</name>
+    <filename>/usr/share/wallpapers/biglinux-chinese-warrior.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Eagle Neon</name>
+    <filename>/usr/share/wallpapers/biglinux-eagle-neon.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Mirror Mountain</name>
+    <filename>/usr/share/wallpapers/biglinux-mirror-mountain.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Noir</name>
+    <filename>/usr/share/wallpapers/biglinux-noir.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Pheonix</name>
+    <filename>/usr/share/wallpapers/biglinux-pheonix.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Planet Astronaut</name>
+    <filename>/usr/share/wallpapers/biglinux-planet-astronaut.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Robot</name>
+    <filename>/usr/share/wallpapers/biglinux-robot.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+  <name>Two Faces</name>
+    <filename>/usr/share/wallpapers/biglinux-two-faces.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Green Landscape</name>
+    <filename>/usr/share/wallpapers/bird-green-landscape.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Buttlerfly</name>
+    <filename>/usr/share/wallpapers/blue-buttlerfly.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Blue Face planet</name>
+    <filename>/usr/share/wallpapers/blue-face-planet.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Cold Linux Pinguim</name>
+    <filename>/usr/share/wallpapers/cold-linux-pinguim.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Colourful Pills</name>
+    <filename>/usr/share/wallpapers/colourful-pills.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Mountains Snow</name>
+    <filename>/usr/share/wallpapers/mountains-snow.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Rats Orange Landscape</name>
+    <filename>/usr/share/wallpapers/rats-orange-landscape.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Two Faces Wild</name>
+    <filename>/usr/share/wallpapers/two-faces-wild.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Woman Realness</name>
+    <filename>/usr/share/wallpapers/woman-realness.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
