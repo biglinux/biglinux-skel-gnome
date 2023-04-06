@@ -5,3 +5,36 @@ export GSK_RENDERER=cairo
 
 # Defining the default visual style to be used in applications that use Qt
 export QT_STYLE_OVERRIDE=kvantum
+
+# Force language
+if [ "$LANGUAGE" = "" ]; then
+export LANGUAGE=$LANG
+fi
+
+#Faster AMD GPU
+if [ $HEIGHT -gt 1400 ]  2>/dev/null; then
+export RADV_FORCE_VRS=2x2
+else
+export RADV_FORCE_VRS=1x1
+fi
+export RADV_PERFTEST=sam,nggc,ext_ms
+
+#Best wine scale
+export WINE_FULLSCREEN_FSR=1
+export WINE_FULLSCREEN_FSR_STRENGTH=3
+
+#OBS Studio game capture with vulkan
+if [ -e "/usr/bin/obs-vkcapture" ]; then
+    export OBS_USE_EGL=1
+    export OBS_VKCAPTURE=1
+    export VK_INSTANCE_LAYERS=VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64 #Fix MangoHUD overlay
+fi
+
+#Keyboard LED
+if [ -e "$HOME/.config/ledkeyboard" ]; then
+   change-keyboard-led on
+fi
+
+#More cache to 3D
+__GL_SHADER_DISK_CACHE=1
+__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
