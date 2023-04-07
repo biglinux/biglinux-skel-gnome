@@ -1,0 +1,16 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = biglinux-skel-gnome
+
+[Trigger]
+Type = Path
+Operation = Install
+Operation = Upgrade
+Target = etc/nanorc
+
+[Action]
+Description = Configure editor nano
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/big-nano
