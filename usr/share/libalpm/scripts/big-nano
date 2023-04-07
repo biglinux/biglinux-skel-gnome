@@ -1,4 +1,6 @@
 #!/bin/sh
 
 # Enable color in nano editor
-sudo sed -i 's/#\(include \/usr\/share\/nano\/\*\.nanorc\)/\1/' /etc/nanorc
+sed -i 's/^#\s*include\s*"\(\/usr\/share\/nano\/\*\.nanorc\)"$/include "\1"/' /etc/nanorc
+
+
