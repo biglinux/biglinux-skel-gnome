@@ -65,7 +65,7 @@
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
-  </wallpaper>
+  <wallpaper>
     <wallpaper deleted="false">
     <name>Astronaut Earth</name>
     <filename>/usr/share/wallpapers/big-gnome-light.avif</filename>
@@ -107,7 +107,7 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-  <name>Two Faces</name>
+    <name>Two Faces</name>
     <filename>/usr/share/wallpapers/biglinux-two-faces.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
