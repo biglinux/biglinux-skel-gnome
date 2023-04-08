@@ -10,7 +10,7 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Purple Wave</name>
+    <name>Dark wave</name>
     <filename>/usr/share/wallpapers/biglinux-dark-wave.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -65,9 +65,8 @@
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
-  <wallpaper>
-    <wallpaper deleted="false">
-    <name>Astronaut Earth</name>
+  <wallpaper deleted="false">
+    <name>Light</name>
     <filename>/usr/share/wallpapers/big-gnome-light.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
