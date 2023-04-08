@@ -4,13 +4,20 @@
   <wallpaper deleted="false">
     <name>Purple Wave</name>
     <filename>/usr/share/wallpapers/biglinux-purple-wave.avif</filename>
-    <filename-dark>/usr/share/wallpapers/biglinux-dark-wave.avif</filename-dark>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
-    <wallpaper deleted="false">
+  <wallpaper deleted="false">
+    <name>Purple Wave</name>
+    <filename>/usr/share/wallpapers/biglinux-dark-wave.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
     <name>Astronaut Earth</name>
     <filename>/usr/share/wallpapers/astronaut-earth.avif</filename>
     <options>stretched</options>
@@ -58,6 +65,15 @@
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
+  <wallpaper>
+    <wallpaper deleted="false">
+    <name>Astronaut Earth</name>
+    <filename>/usr/share/wallpapers/big-gnome-light.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
   <wallpaper deleted="false">
     <name>Noir</name>
     <filename>/usr/share/wallpapers/biglinux-noir.avif</filename>
@@ -91,7 +107,7 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-  <name>Two Faces</name>
+    <name>Two Faces</name>
     <filename>/usr/share/wallpapers/biglinux-two-faces.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
