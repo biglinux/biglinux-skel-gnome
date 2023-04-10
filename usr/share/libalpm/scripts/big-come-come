@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Enable the ILoveCandy parameter to mimic the pacman game
+sed -i '/^Color/a ILoveCandy' /etc/pacman.conf
