@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Custom vim configuration
+cat << EOF >> /etc/vimrc
+# Custom vim configuration
+set number                  " display line numbers
+syntax on                   " enable syntax highlighting
+set showmatch               " highlight matching [{( characters
+set textwidth=79            " set maximum text width to 79 characters
+set nowrap                  " disable line wrapping
+set mouse=r                 " enable mouse support in the terminal
+set incsearch               " enable incremental search
+set nu                      " shortcut for number
+set ts=3                    " set tabstop to 3 spaces
+set sw=3                    " set shiftwidth to 3 spaces
+set autoindent              " enable autoindentation
+EOF
