@@ -1,8 +1,9 @@
 #!/bin/sh
 
 # Custom vim configuration
-cat << EOF >> /etc/vimrc
+cat << EOF > /etc/vimrc
 " Custom vim configuration
+runtime! archlinux.vim      " Run plugin "archlinux.vim" in Vim
 set number                  " display line numbers
 syntax on                   " enable syntax highlighting
 set showmatch               " highlight matching [{( characters
