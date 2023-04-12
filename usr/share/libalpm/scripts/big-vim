@@ -2,7 +2,7 @@
 
 # Custom vim configuration
 cat << EOF >> /etc/vimrc
-# Custom vim configuration
+" Custom vim configuration
 set number                  " display line numbers
 syntax on                   " enable syntax highlighting
 set showmatch               " highlight matching [{( characters
