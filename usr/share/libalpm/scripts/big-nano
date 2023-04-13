@@ -28,17 +28,11 @@ set linenumbers
 # Make the Home key smart, to move the cursor to the first non-whitespace character on a line
 set smarthome
 
-# Enable suspend support (using the SIGTSTP signal)
-set suspendable
-
 # Save command history to a log file
 set historylog
 
 # Enable backups
 set backup
-
-# Specify the directory for backups (in this case, the "nano_backups" directory in the user's home directory)
-set backupdir \"~/.nano_backups/\"
 
 # Enable soft wrapping of long lines
 set softwrap
