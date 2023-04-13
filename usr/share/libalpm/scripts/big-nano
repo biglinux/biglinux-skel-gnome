@@ -1,6 +1,48 @@
 #!/bin/sh
 
-# Enable color in nano editor
-sed -i 's/^#\s*include\s*"\(\/usr\/share\/nano\/\*\.nanorc\)"$/include "\1"/' /etc/nanorc
+# Custom nano configuration
+cat << EOF > /etc/nanorc
+# Custom nano configuration
 
+# To include most of the existing syntax definitions, you can do
+include "/usr/share/nano/*.nanorc"
 
+# Enable auto-indentation
+set autoindent
+
+# Set tab size to 4 spaces
+set tabsize 4
+
+# Convert tabs to spaces
+set tabstospaces
+
+# Disable line wrapping
+set nowrap
+
+# Enable mouse support
+set mouse
+
+# Show line numbers
+set linenumbers
+
+# Make the Home key smart, to move the cursor to the first non-whitespace character on a line
+set smarthome
+
+# Enable suspend support (using the SIGTSTP signal)
+set suspendable
+
+# Save command history to a log file
+set historylog
+
+# Enable backups
+set backup
+
+# Specify the directory for backups (in this case, the "nano_backups" directory in the user's home directory)
+set backupdir \"~/.nano_backups/\"
+
+# Enable soft wrapping of long lines
+set softwrap
+
+# Limit screen width to 80 columns
+set fill 80
+EOF
