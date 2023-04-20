@@ -20,7 +20,7 @@ set tabstospaces
 set nowrap
 
 # Enable mouse support
-set mouse
+#set mouse
 
 # Show line numbers
 set linenumbers
