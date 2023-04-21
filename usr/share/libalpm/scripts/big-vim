@@ -1,8 +1,5 @@
-#!/bin/sh
-
-# Custom vim configuration
-cat << EOF > /etc/vimrc
 " Custom vim configuration
+
 runtime! archlinux.vim      " Run plugin archlinux.vim in Vim
 set number                  " display line numbers
 syntax on                   " enable syntax highlighting
@@ -15,4 +12,3 @@ set nu                      " shortcut for number
 set ts=4                    " set tabstop to 4 spaces
 set sw=4                    " set shiftwidth to 4 spaces
 set autoindent              " enable autoindentation
-EOF
