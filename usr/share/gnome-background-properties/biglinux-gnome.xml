@@ -2,23 +2,7 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>Purple Wave</name>
-    <filename>/usr/share/wallpapers/biglinux-purple-wave.avif</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Dark wave</name>
-    <filename>/usr/share/wallpapers/biglinux-dark-wave.avif</filename>
-    <options>stretched</options>
-    <pcolor>#ffffff</pcolor>
-    <scolor>#000000</scolor>
-    <shade_type>solid</shade_type>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Astronaut Earth</name>
+    <name>Astronaut-earth.avif</name>
     <filename>/usr/share/wallpapers/astronaut-earth.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -26,7 +10,15 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Beach Sundawn</name>
+    <name>Beach dog.avif</name>
+    <filename>/usr/share/wallpapers/beach_dog.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Beach-sundawn.avif</name>
     <filename>/usr/share/wallpapers/beach-sundawn.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -34,7 +26,15 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Black Warrior</name>
+    <name>Beach sunset.avif</name>
+    <filename>/usr/share/wallpapers/beach_sunset.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Biglinux-black-warrior.avif</name>
     <filename>/usr/share/wallpapers/biglinux-black-warrior.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -42,7 +42,31 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Chinese Warrior</name>
+    <name>Biglinux blue.avif</name>
+    <filename>/usr/share/wallpapers/biglinux_blue.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Biglinux blue mountain.avif</name>
+    <filename>/usr/share/wallpapers/biglinux_blue_mountain.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Biglinux carbon moutain.avif</name>
+    <filename>/usr/share/wallpapers/biglinux_carbon_moutain.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Biglinux-chinese-warrior.avif</name>
     <filename>/usr/share/wallpapers/biglinux-chinese-warrior.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -50,31 +74,31 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Eagle Neon</name>
-    <filename>/usr/share/wallpapers/biglinux-eagle-neon.avif</filename>
+    <name>Biglinux-dark-wave.avif</name>
+    <filename>/usr/share/wallpapers/biglinux-dark-wave.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Mirror Mountain</name>
-    <filename>/usr/share/wallpapers/biglinux-mirror-mountain.avif</filename>
+    <name>Biglinux golden ring.avif</name>
+    <filename>/usr/share/wallpapers/biglinux_golden_ring.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Light</name>
-    <filename>/usr/share/wallpapers/big-gnome-light.avif</filename>
+    <name>Biglinux neon circle.avif</name>
+    <filename>/usr/share/wallpapers/biglinux_neon_circle.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Noir</name>
+    <name>Biglinux-noir.avif</name>
     <filename>/usr/share/wallpapers/biglinux-noir.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -82,7 +106,7 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Pheonix</name>
+    <name>Biglinux-pheonix.avif</name>
     <filename>/usr/share/wallpapers/biglinux-pheonix.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -90,15 +114,15 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Planet Astronaut</name>
-    <filename>/usr/share/wallpapers/biglinux-planet-astronaut.avif</filename>
+    <name>Biglinux-purple-wave.avif</name>
+    <filename>/usr/share/wallpapers/biglinux-purple-wave.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Robot</name>
+    <name>Biglinux-robot.avif</name>
     <filename>/usr/share/wallpapers/biglinux-robot.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -106,15 +130,23 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Two Faces</name>
-    <filename>/usr/share/wallpapers/biglinux-two-faces.avif</filename>
+    <name>Biglinux sunset.avif</name>
+    <filename>/usr/share/wallpapers/biglinux_sunset.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Green Landscape</name>
+    <name>Big-wallpaper-login.jpg</name>
+    <filename>/usr/share/wallpapers/big-wallpaper-login.jpg</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Bird-green-landscape.avif</name>
     <filename>/usr/share/wallpapers/bird-green-landscape.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -122,15 +154,23 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Buttlerfly</name>
-    <filename>/usr/share/wallpapers/blue-buttlerfly.avif</filename>
+    <name>Black cat face.avif</name>
+    <filename>/usr/share/wallpapers/black_cat_face.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Blue Face planet</name>
+    <name>Blue evergreen.avif</name>
+    <filename>/usr/share/wallpapers/blue_evergreen.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Blue-face-planet.avif</name>
     <filename>/usr/share/wallpapers/blue-face-planet.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -138,7 +178,71 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Cold Linux Pinguim</name>
+    <name>Blue iceberg.avif</name>
+    <filename>/usr/share/wallpapers/blue_iceberg.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Blue river.avif</name>
+    <filename>/usr/share/wallpapers/blue_river.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Boat sea sky.avif</name>
+    <filename>/usr/share/wallpapers/boat_sea_sky.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Carbon green moutains.avif</name>
+    <filename>/usr/share/wallpapers/carbon_green_moutains.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Cat coat.avif</name>
+    <filename>/usr/share/wallpapers/cat_coat.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Clean art colors moutains.avif</name>
+    <filename>/usr/share/wallpapers/clean_art_colors_moutains.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Clean art lamp moutain.avif</name>
+    <filename>/usr/share/wallpapers/clean_art_lamp_moutain.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Clean art tree.avif</name>
+    <filename>/usr/share/wallpapers/clean_art_tree.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Cold-linux-pinguim.avif</name>
     <filename>/usr/share/wallpapers/cold-linux-pinguim.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -146,7 +250,7 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Colourful Pills</name>
+    <name>Colourful-pills.avif</name>
     <filename>/usr/share/wallpapers/colourful-pills.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
@@ -154,31 +258,407 @@
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Mountains Snow</name>
-    <filename>/usr/share/wallpapers/mountains-snow.avif</filename>
+    <name>Cozy street.avif</name>
+    <filename>/usr/share/wallpapers/cozy_street.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Rats Orange Landscape</name>
-    <filename>/usr/share/wallpapers/rats-orange-landscape.avif</filename>
+    <name>Cyberpunk city.avif</name>
+    <filename>/usr/share/wallpapers/cyberpunk_city.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Two Faces Wild</name>
-    <filename>/usr/share/wallpapers/two-faces-wild.avif</filename>
+    <name>Dark moutains.avif</name>
+    <filename>/usr/share/wallpapers/dark_moutains.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
     <shade_type>solid</shade_type>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Woman Realness</name>
+    <name>Diamond black gold.avif</name>
+    <filename>/usr/share/wallpapers/diamond_black_gold.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Different planet.avif</name>
+    <filename>/usr/share/wallpapers/different_planet.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Dog black gold.avif</name>
+    <filename>/usr/share/wallpapers/dog_black_gold.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Dog coat.avif</name>
+    <filename>/usr/share/wallpapers/dog_coat.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Fire planet.avif</name>
+    <filename>/usr/share/wallpapers/fire_planet.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Flower blue.avif</name>
+    <filename>/usr/share/wallpapers/flower_blue.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Flowers white green.avif</name>
+    <filename>/usr/share/wallpapers/flowers_white_green.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Foxy blue.avif</name>
+    <filename>/usr/share/wallpapers/foxy_blue.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Geometric colors.avif</name>
+    <filename>/usr/share/wallpapers/geometric_colors.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Glass ball.avif</name>
+    <filename>/usr/share/wallpapers/glass_ball.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Husky dog.avif</name>
+    <filename>/usr/share/wallpapers/husky_dog.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Lista.sh</name>
+    <filename>/usr/share/wallpapers/lista.sh</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Lizard leafs.avif</name>
+    <filename>/usr/share/wallpapers/lizard_leafs.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Magenta sunset.avif</name>
+    <filename>/usr/share/wallpapers/magenta_sunset.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Marco flower.avif</name>
+    <filename>/usr/share/wallpapers/marco_flower.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Nebulosa two colors.avif</name>
+    <filename>/usr/share/wallpapers/nebulosa_two_colors.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Neon frost flower.avif</name>
+    <filename>/usr/share/wallpapers/neon_frost_flower.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Neon glass.avif</name>
+    <filename>/usr/share/wallpapers/neon_glass.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Other moon.avif</name>
+    <filename>/usr/share/wallpapers/other_moon.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Painting headpgone.avif</name>
+    <filename>/usr/share/wallpapers/painting_headpgone.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Painting rebel colors.avif</name>
+    <filename>/usr/share/wallpapers/painting_rebel_colors.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Painting rebel colors too.avif</name>
+    <filename>/usr/share/wallpapers/painting_rebel_colors_too.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Painting soft colors.avif</name>
+    <filename>/usr/share/wallpapers/painting_soft_colors.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Pale snow moutains.avif</name>
+    <filename>/usr/share/wallpapers/pale_snow_moutains.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Pale tree moutains.avif</name>
+    <filename>/usr/share/wallpapers/pale_tree_moutains.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Patterns yellow grey.avif</name>
+    <filename>/usr/share/wallpapers/patterns_yellow_grey.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Penguin laptop.avif</name>
+    <filename>/usr/share/wallpapers/penguin_laptop.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Pig coat.avif</name>
+    <filename>/usr/share/wallpapers/pig_coat.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Planet blue and purple.avif</name>
+    <filename>/usr/share/wallpapers/planet_blue_and_purple.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Poly colors.avif</name>
+    <filename>/usr/share/wallpapers/poly_colors.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Poly penguin.avif</name>
+    <filename>/usr/share/wallpapers/poly_penguin.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Purple jellyfish.avif</name>
+    <filename>/usr/share/wallpapers/purple_jellyfish.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Rainbow billed Toucan.avif</name>
+    <filename>/usr/share/wallpapers/rainbow_billed_Toucan.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Rainbow black.avif</name>
+    <filename>/usr/share/wallpapers/rainbow_black.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Rainbow leafs.avif</name>
+    <filename>/usr/share/wallpapers/rainbow_leafs.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Smoot colors black.avif</name>
+    <filename>/usr/share/wallpapers/smoot_colors_black.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Smooth colors.avif</name>
+    <filename>/usr/share/wallpapers/smooth_colors.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Snow and tree.avif</name>
+    <filename>/usr/share/wallpapers/snow_and_tree.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Soft colors balloon.avif</name>
+    <filename>/usr/share/wallpapers/soft_colors_balloon.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Soft painting.avif</name>
+    <filename>/usr/share/wallpapers/soft_painting.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Suculenta flower.avif</name>
+    <filename>/usr/share/wallpapers/suculenta_flower.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Technological minimalist.avif</name>
+    <filename>/usr/share/wallpapers/technological_minimalist.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Tiger face.avif</name>
+    <filename>/usr/share/wallpapers/tiger_face.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Tree inthe middle.avif</name>
+    <filename>/usr/share/wallpapers/tree_inthe_middle.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Tropical sea.avif</name>
+    <filename>/usr/share/wallpapers/tropical_sea.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Water drop.avif</name>
+    <filename>/usr/share/wallpapers/water_drop.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Way to a tree.avif</name>
+    <filename>/usr/share/wallpapers/way_to_a_tree.avif</filename>
+    <options>stretched</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Woman-realness.avif</name>
     <filename>/usr/share/wallpapers/woman-realness.avif</filename>
     <options>stretched</options>
     <pcolor>#ffffff</pcolor>
