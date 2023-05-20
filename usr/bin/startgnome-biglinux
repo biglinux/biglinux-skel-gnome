@@ -3,17 +3,15 @@
 # Defining the default visual style to be used in applications that use Qt
 export QT_STYLE_OVERRIDE=kvantum
 
+# Better font rendering
+FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
+
 # Force language
 if [ "$LANGUAGE" = "" ]; then
 export LANGUAGE=$LANG
 fi
 
 #Faster AMD GPU
-if [ $HEIGHT -gt 1400 ]  2>/dev/null; then
-export RADV_FORCE_VRS=2x2
-else
-export RADV_FORCE_VRS=1x1
-fi
 export RADV_PERFTEST=sam,nggc,ext_ms
 
 #Best wine scale
