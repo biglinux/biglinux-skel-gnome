@@ -12,7 +12,6 @@ image/svg+xml=org.gnome.eog.desktop
 application/x-shellscript=org.gnome.TextEditor.desktop
 application/xml=org.gnome.TextEditor.desktop
 image/jpeg=org.gnome.eog.desktop
-inode/directory=org.gnome.Nautilus.desktop
 
 [Added Associations]
 x-scheme-handler/tg=userapp-Telegram Desktop-GZVBW1.desktop;
@@ -23,5 +22,3 @@ image/svg+xml=org.gnome.eog.desktop;
 application/x-shellscript=nautilus-autorun-software.desktop;org.gnome.TextEditor.desktop;
 application/xml=org.gnome.TextEditor.desktop;
 image/jpeg=org.gnome.eog.desktop;
-x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
-x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
