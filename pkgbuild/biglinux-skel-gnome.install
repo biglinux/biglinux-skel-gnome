@@ -11,7 +11,7 @@
 post_install() {
 
 	# Replace Bash with zsh
-	sed -i '/SHELL=/s/SHELL=.*/SHELL=\/bin\/zsh/' /etc/default/useradd
+	sed -i '/SHELL=/s/SHELL=.*/SHELL=\/bin\/bash/' /etc/default/useradd
 	
 	# Execute the big-gdm-greeter script
 	bash /usr/share/libalpm/scripts/big-gdm-greeter
