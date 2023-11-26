@@ -46,3 +46,6 @@ fi
 #More cache to 3D
 __GL_SHADER_DISK_CACHE=1
 __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
+
+# Start Gnome session
+/usr/bin/gnome-session
