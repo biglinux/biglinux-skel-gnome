@@ -46,3 +46,9 @@ fi
 #More cache to 3D
 __GL_SHADER_DISK_CACHE=1
 __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
+
+# Create folders User
+if [ -e /usr/bin/startbiglive ]; then
+    xdg-user-dirs-update
+    rm -f "$HOME/Empty Bash" "$HOME/Empty Desktop File.desktop" "$HOME/Empty File"
+fi
