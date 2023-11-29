@@ -52,3 +52,16 @@ if [ -e /usr/bin/startbiglive ]; then
     xdg-user-dirs-update
     rm -f "$HOME/Empty Bash" "$HOME/Empty Desktop File.desktop" "$HOME/Empty File"
 fi
+
+
+# Path to the file indicating if the script has been run before
+GNOME_KEYRING_FLAG="/var/local/gnome-keyring-first-boot"
+
+# Check if it's the first run after GNOME installation
+if [ ! -f "$GNOME_KEYRING_FLAG" ]; then
+    # Commands to restart the gnome-keyring-daemon
+    gnome-keyring-daemon --replace &
+
+    # Mark the script as run
+    touch "$GNOME_KEYRING_FLAG"
+fi
