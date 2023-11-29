@@ -47,8 +47,13 @@ fi
 __GL_SHADER_DISK_CACHE=1
 __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 
-# Create folders User
+### Execute in LiveCD
 if [ -e /usr/bin/startbiglive ]; then
+    # Disable gnome-keyring
+    sudo pacman -Rdd gnome-keyring --noconfirm && \
+    killall gnome-keyring-daemon
+    #sudo sed -i '/^    PARAMETERS="/ s/"\(.*\)"/"--password-store=basic \1"/' /usr/local/bin/brave-browser
+    # Create folders User
     xdg-user-dirs-update
     rm -f "$HOME/Empty Bash" "$HOME/Empty Desktop File.desktop" "$HOME/Empty File"
 fi
