@@ -4,7 +4,7 @@
 export QT_STYLE_OVERRIDE=kvantum
 export QT_QPA_PLATFORMTHEME=gnome
 
-# Load screen startbiglive
+# Load screen startbiglive.
 if [[ ! -e /tmp/big_language ]]; then
     mutter --wayland &
     #Waiting for mutter
