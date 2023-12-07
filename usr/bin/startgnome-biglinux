@@ -4,9 +4,15 @@
 export QT_STYLE_OVERRIDE=kvantum
 export QT_QPA_PLATFORMTHEME=gnome
 
-# This script checks if the current session is running under Wayland
-if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
-    export QT_QPA_PLATFORM=xcb
+# Load screen startbiglive
+if [[ ! -e /tmp/big_language ]]; then
+    mutter --wayland &
+    #Waiting for mutter
+    while ! pgrep mutter > /dev/null; do
+        sleep 0.5
+    done
+    QT_QPA_PLATFORM=wayland startbiglive
+    killall mutter
 fi
 
 # Better font rendering
@@ -42,17 +48,6 @@ if [ -e "$HOME/.config/ledkeyboard" ]; then
    change-keyboard-led on
 fi
 
-#More cache to 3D
-__GL_SHADER_DISK_CACHE=1
-__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
-
-### Execute in LiveCD
-if [ -e /usr/bin/startbiglive ]; then
-    # Disable gnome-keyring
-    sudo pacman -Rdd gnome-keyring --noconfirm && \
-    killall gnome-keyring-daemon
-    #sudo sed -i '/^    PARAMETERS="/ s/"\(.*\)"/"--password-store=basic \1"/' /usr/local/bin/brave-browser
-    # Create folders User
-    xdg-user-dirs-update
-    rm -f "$HOME/Empty Bash" "$HOME/Empty Desktop File.desktop" "$HOME/Empty File"
-fi
+# #More cache to 3D
+# __GL_SHADER_DISK_CACHE=1
+# __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
