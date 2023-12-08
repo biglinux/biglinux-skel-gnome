@@ -4,16 +4,16 @@
 export QT_STYLE_OVERRIDE=kvantum
 export QT_QPA_PLATFORMTHEME=gnome
 
-# Load screen startbiglive.
-if [[ ! -e /tmp/big_language ]]; then
-    mutter --wayland &
-    #Waiting for mutter
-    while ! wayland-info &> /dev/null; do
-        sleep 0.5
-    done
-    QT_QPA_PLATFORM=wayland startbiglive
-    killall mutter
-fi
+# # Load screen startbiglive.
+# if [[ ! -e /tmp/big_language ]]; then
+#     mutter --wayland &
+#     #Waiting for mutter
+#     while ! wayland-info &> /dev/null; do
+#         sleep 0.5
+#     done
+#     QT_QPA_PLATFORM=wayland startbiglive
+#     killall mutter
+# fi
 
 # Better font rendering
 # FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
@@ -51,3 +51,32 @@ fi
 # #More cache to 3D
 # __GL_SHADER_DISK_CACHE=1
 # __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
+
+
+### Execute in LiveCD
+if [ -e /usr/bin/startbiglive ]; then
+    # Disable gnome-keyring
+    # Path to the control file
+    control_file="$HOME/.gnome_keyring_unlocked"
+
+    # Check if the script has already been executed
+    if [ ! -f "$control_file" ]; then
+        # Unlock the existing keyring (assuming there is no password)
+        gnome-keyring-daemon --unlock <<< ""
+
+        # Store a test key to set up the default keyring (without a password)
+        secret-tool store --label='Default Keyring' keyring default <<< ""
+
+        # Create the control file to prevent the script from being executed again
+        touch "$control_file"
+    fi
+
+    # Unlock the keyring at login (assuming there is no password)
+    gnome-keyring-daemon --unlock <<< "password"
+
+    # Removes unwanted files
+    rm -f "$HOME/Empty Bash" "$HOME/Empty Desktop File.desktop" "$HOME/Empty File"
+
+    # Updates user directories
+    xdg-user-dirs-update
+fi
