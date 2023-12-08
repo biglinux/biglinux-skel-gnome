@@ -8,7 +8,7 @@ export QT_QPA_PLATFORMTHEME=gnome
 if [[ ! -e /tmp/big_language ]]; then
     mutter --wayland &
     #Waiting for mutter
-    while ! pgrep mutter > /dev/null; do
+    while ! wayland-info &> /dev/null; do
         sleep 0.5
     done
     QT_QPA_PLATFORM=wayland startbiglive
