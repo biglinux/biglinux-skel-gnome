@@ -55,9 +55,8 @@ fi
 
 ### Execute in LiveCD
 if [ -e /usr/bin/startbiglive ]; then
-    # Disable gnome-keyring
-    sudo pacman -Rdd gnome-keyring --noconfirm && \
-    killall gnome-keyring-daemon
+    # Enables basic, unencrypted password storage in Chromium-based browsers
+    sudo sed -i '/--password-store=basic/!s/\(exec \/usr\/lib\/brave-browser\/brave "$@" $USER_FLAGS\)$/\1 --password-store=basic/' /usr/bin/brave
 
     # Removes unwanted files
     rm -f "$HOME/Empty Bash" "$HOME/Empty Desktop File.desktop" "$HOME/Empty File"
