@@ -1,4 +1,4 @@
-# Maintainer: Barnabé <barnabedikartola@gmail.com>
+# Maintainer: Tales A. Mendonça <talesam@gmail.com>
 
 pkgname=biglinux-skel-gnome
 pkgver=$(date +%y.%m.%d)
@@ -7,17 +7,31 @@ pkgdesc="Skel for BigLinux Community Gnome"
 arch=('any')
 url="https://github.com/biglinux/$pkgname"
 license=('GPL3')
-#depends=('qgnomeplatform-qt5' 'qgnomeplatform-qt6')
-provides=("$pkgname")
+provides=('bashrc')
 source=("git+${url}.git")
 sha256sums=('SKIP')
 install=${pkgname}.install
-
-#bigskel=$(pacman -Ss biglinux-skel- | awk -F'[/ ]' '{print $2}')
-conflicts=('big-skel')
-#"$bigskel"
+conflicts=('big-skel' 'bashrc-manjaro')
 
 package() {
-    cp -r "${srcdir}/${pkgname}/etc/" "${pkgdir}/"
-    cp -r "${srcdir}/${pkgname}/usr/" "${pkgdir}/"
+    # Verify default folder
+    if [ -d "${srcdir}/${pkgname}/${pkgname}" ]; then
+        InternalDir="${srcdir}/${pkgname}/${pkgname}"
+    else
+        InternalDir="${srcdir}/${pkgname}"
+    fi
+
+
+    # Copy files
+    if [ -d "${InternalDir}/usr" ]; then
+        cp -r "${InternalDir}/usr" "${pkgdir}/"
+    fi
+
+    if [ -d "${InternalDir}/etc" ]; then
+        cp -r "${InternalDir}/etc" "${pkgdir}/"
+    fi
+
+    if [ -d "${InternalDir}/opt" ]; then
+        cp -r "${InternalDir}/opt" "${pkgdir}/"
+    fi
 }
