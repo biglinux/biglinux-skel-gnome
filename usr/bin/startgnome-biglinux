@@ -4,20 +4,6 @@
 export QT_STYLE_OVERRIDE=kvantum
 export QT_QPA_PLATFORMTHEME=gnome
 
-# # Load screen startbiglive.
-# if [[ ! -e /tmp/big_language ]]; then
-#     mutter --wayland &
-#     #Waiting for mutter
-#     while ! wayland-info &> /dev/null; do
-#         sleep 0.5
-#     done
-#     QT_QPA_PLATFORM=wayland startbiglive
-#     killall mutter
-# fi
-
-# Better font rendering
-# FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
-
 # Force language
 if [ "$LANGUAGE" = "" ]; then
     export LANGUAGE=$LANG
@@ -32,10 +18,6 @@ fi
 #Faster AMD GPU
 export RADV_PERFTEST=sam,nggc,ext_ms
 
-#Best wine scale
-#export WINE_FULLSCREEN_FSR=1
-#export WINE_FULLSCREEN_FSR_STRENGTH=3
-
 #OBS Studio game capture with vulkan
 if [ -e "/usr/bin/obs-vkcapture" ]; then
     export OBS_USE_EGL=1
@@ -47,11 +29,6 @@ fi
 if [ -e "$HOME/.config/ledkeyboard" ]; then
    change-keyboard-led on
 fi
-
-# #More cache to 3D
-# __GL_SHADER_DISK_CACHE=1
-# __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
-
 
 ### Execute in LiveCD
 if [ -e /usr/bin/startbiglive ]; then

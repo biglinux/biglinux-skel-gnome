@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# Remove all occurrences of 'ILoveCandy' without comments.
-sed -i '/^[[:blank:]]*ILoveCandy[[:blank:]]*$/d' /etc/pacman.conf
-
-# Adds 'ILoveCandy' below the line that contains 'Color'.
-sed -i '/^Color/a ILoveCandy' /etc/pacman.conf
-
