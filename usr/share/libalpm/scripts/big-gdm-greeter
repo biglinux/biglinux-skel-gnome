@@ -4,5 +4,4 @@
 if [ -e "/usr/share/gnome-shell/gnome-shell-theme.gresource" ]; then
   mv -f /usr/share/gnome-shell/gnome-shell-theme.gresource /usr/share/gnome-shell/gnome-shell-theme.gresource.bak
 fi
-mv -f /usr/share/gnome-shell/big-gnome-shell-theme.gresource /usr/share/gnome-shell/gnome-shell-theme.gresource
-
+cp -f /usr/share/gnome-shell/big-gnome-shell-theme.gresource /usr/share/gnome-shell/gnome-shell-theme.gresource
