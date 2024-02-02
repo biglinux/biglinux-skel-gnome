@@ -1,0 +1,11 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = etc/skel/.bashrc
+Target = biglinux-skel-gnome
+
+[Action]
+Description = BigLinux change skel .bashrc
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/big-bashrc
