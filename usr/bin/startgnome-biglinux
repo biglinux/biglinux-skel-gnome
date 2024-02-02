@@ -41,3 +41,6 @@ if [ -e /usr/bin/startbiglive ]; then
     # Updates user directories
     xdg-user-dirs-update
 fi
+
+# Execute gnome-session
+exec /usr/lib/gnome-session-binary "$@"

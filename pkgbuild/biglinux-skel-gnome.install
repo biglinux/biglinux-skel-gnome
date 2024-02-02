@@ -4,8 +4,6 @@
 
 ## arg 1:  the new package version
 post_install() {
-	# Execute the big-gdm-greeter script
-	bash /usr/share/libalpm/scripts/big-gdm-greeter
 	
 	# Desativar a montagem automática de dispositivos
 	gsettings set org.gnome.desktop.media-handling automount false
