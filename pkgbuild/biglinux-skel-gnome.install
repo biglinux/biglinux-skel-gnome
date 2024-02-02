@@ -5,8 +5,6 @@
 ## arg 1:  the new package version
 post_install() {
 	
-	# Desativar a montagem automática de dispositivos
-	gsettings set org.gnome.desktop.media-handling automount false
 }
 
 ## arg 2:  the old package version

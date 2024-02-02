@@ -3,22 +3,22 @@
 # Replace gnome-session with startgnome-biglinux
 
 # For /usr/share/xsessions/gnome.desktop
-sudo sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome.desktop
+sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome.desktop
 
 # For /usr/share/xsessions/gnome-classic.desktop
-sudo sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-classic.desktop
+sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-classic.desktop
 
 # For /usr/share/wayland-sessions/gnome-classic.desktop
-sudo sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-classic.desktop
+sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-classic.desktop
 
 # For /usr/share/wayland-sessions/gnome-wayland.desktop
-sudo sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-wayland.desktop
+sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-wayland.desktop
 
 # For /usr/share/wayland-sessions/gnome.desktop
-sudo sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome.desktop
+sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome.desktop
 
 # For /usr/share/xsessions/gnome-xorg.desktop
-sudo sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-xorg.desktop
+sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-xorg.desktop
 
 # For /usr/share/xsessions/gnome-classic-xorg.desktop, considerando parâmetros adicionais
-sudo sed -i 's|^Exec=env GNOME_SHELL_SESSION_MODE=classic gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-classic-xorg.desktop
+sed -i 's|^Exec=env GNOME_SHELL_SESSION_MODE=classic gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-classic-xorg.desktop

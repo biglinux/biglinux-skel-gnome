@@ -15,20 +15,24 @@ if [ ! -f "$HOME/.biglinux-shell-changed" ]; then
     touch "$HOME/.biglinux-shell-changed"
 fi
 
-#Faster AMD GPU
+# Faster AMD GPU
 export RADV_PERFTEST=sam,nggc,ext_ms
 
-#OBS Studio game capture with vulkan
+# OBS Studio game capture with vulkan
 if [ -e "/usr/bin/obs-vkcapture" ]; then
     export OBS_USE_EGL=1
     export OBS_VKCAPTURE=1
     export VK_INSTANCE_LAYERS=VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64 #Fix MangoHUD overlay
 fi
 
-#Keyboard LED
+# Keyboard LED
 if [ -e "$HOME/.config/ledkeyboard" ]; then
    change-keyboard-led on
 fi
+
+# Enable automatic mounting of devices
+gsettings set org.gnome.desktop.media-handling automount true
+
 
 ### Execute in LiveCD
 if [ -e /usr/bin/startbiglive ]; then
