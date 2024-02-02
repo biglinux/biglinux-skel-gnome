@@ -1,6 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-# Add startgnome-biglinux in gnome-session
-if [ "$(grep startgnome-biglinux /usr/bin/gnome-session)" = "" ]; then
-    sed -i '/gnome-session-binary/i . /usr/bin/startgnome-biglinux' /usr/bin/gnome-session
-fi
+# Replace gnome-session with startgnome-biglinux
+sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|g' /usr/share/xsessions/gnome.desktop /usr/share/xsessions/gnome-classic.desktop /usr/share/wayland-sessions/gnome-classic.desktop /usr/share/wayland-sessions/gnome-wayland.desktop

@@ -6,6 +6,6 @@ Target = usr/bin/gnome-session
 Target = usr/bin/startgnome-biglinux
 
 [Action]
-Description = Add startgnome-biglinux in gnome-session
+Description = Replace gnome-session with startgnome-biglinux
 When = PostTransaction
 Exec = /usr/share/libalpm/scripts/startgnome-biglinux
