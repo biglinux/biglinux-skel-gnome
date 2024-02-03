@@ -23,4 +23,4 @@ sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/
 sed -i 's|^Exec=env GNOME_SHELL_SESSION_MODE=classic gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-classic-wayland.desktop
 
 # Default
-sed -i 's|^Exec=/usr/bin/gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-classic.desktop
+sed -i 's|^Exec=env GNOME_SHELL_SESSION_MODE=classic gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-classic.desktop
