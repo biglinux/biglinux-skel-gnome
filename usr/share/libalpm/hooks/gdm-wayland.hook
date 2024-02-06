@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = gdm
+
+[Action]
+Description = BigLinux GDM Wayland
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/gdm-wayland
