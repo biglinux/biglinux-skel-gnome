@@ -1,9 +1,8 @@
 [Trigger]
-Type = Package
+Type = Path
 Operation = Install
 Operation = Upgrade
 Target = etc/skel/.bashrc
-Target = biglinux-skel-gnome
 
 [Action]
 Description = BigLinux change skel .bashrc
