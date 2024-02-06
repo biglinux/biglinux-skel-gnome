@@ -3,7 +3,7 @@
 # Defining the default visual style to be used in applications that use Qt
 export QT_STYLE_OVERRIDE=kvantum
 export QT_QPA_PLATFORMTHEME=gnome
-export QT_WAYLAND_DECORATION=adwaita
+# export QT_WAYLAND_DECORATION=adwaita
 
 # Force language
 if [ "$LANGUAGE" = "" ]; then
