@@ -1,8 +1,8 @@
 [Trigger]
-Type = Package
+Type = Path
 Operation = Install
 Operation = Upgrade
-Target = gdm
+Target = etc/gdm/custom.conf
 
 [Action]
 Description = BigLinux GDM Wayland
