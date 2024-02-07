@@ -48,4 +48,4 @@ if [ -e /usr/bin/startbiglive ]; then
 fi
 
 # Execute gnome-session
-exec /usr/bin/gnome-session "$@"
+# exec /usr/bin/gnome-session "$@"

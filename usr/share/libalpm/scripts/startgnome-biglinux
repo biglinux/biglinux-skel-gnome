@@ -1,26 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-# Replace gnome-session with startgnome-biglinux
-
-# Adjustments for gnome.desktop, gnome-classic.desktop, gnome-xorg.desktop, gnome-classic-xorg.desktop
-sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome.desktop
-
-sed -i 's|^Exec=/usr/bin/gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-classic.desktop
-
-sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-xorg.desktop
-
-sed -i 's|^Exec=env GNOME_SHELL_SESSION_MODE=classic gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-classic-xorg.desktop
-
-sed -i 's|^Exec=env GNOME_SHELL_SESSION_MODE=classic gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/xsessions/gnome-classic.desktop
-
-
-
-# Adjustments for gnome-wayland.desktop, gnome.desktop, gnome-classic.desktop, gnome-classic-wayland.desktop
-sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-wayland.desktop
-
-sed -i 's|^Exec=/usr/bin/gnome-session|Exec=/usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome.desktop
-
-sed -i 's|^Exec=env GNOME_SHELL_SESSION_MODE=classic gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-classic-wayland.desktop
-
-# Default
-sed -i 's|^Exec=env GNOME_SHELL_SESSION_MODE=classic gnome-session|Exec=env GNOME_SHELL_SESSION_MODE=classic /usr/bin/startgnome-biglinux|' /usr/share/wayland-sessions/gnome-classic.desktop
+# Add startgnome-biglinux in gnome-session
+if [ "$(grep startgnome-biglinux /usr/bin/gnome-session)" = "" ]; then
+    sed -i '/gnome-session-binary/i . /usr/bin/startgnome-biglinux' /usr/bin/gnome-session
+fi
