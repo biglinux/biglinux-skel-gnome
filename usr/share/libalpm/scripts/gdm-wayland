@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 # Actve Wayland default
-sed -i '/WaylandEnable=/s/WaylandEnable=.*/WaylandEnable=true/' /etc/gdm/custom.conf
+sed -i '/^WaylandEnable/s/^/#/' /etc/gdm/custom.conf
