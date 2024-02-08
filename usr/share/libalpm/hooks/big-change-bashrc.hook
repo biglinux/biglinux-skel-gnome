@@ -7,4 +7,4 @@ Target = etc/skel/.bashrc
 [Action]
 Description = BigLinux change skel .bashrc
 When = PostTransaction
-Exec = /usr/share/libalpm/scripts/big-bashrc
+Exec = /usr/share/libalpm/scripts/big-change-bashrc.sh
