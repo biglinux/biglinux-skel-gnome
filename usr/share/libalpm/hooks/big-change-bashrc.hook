@@ -2,7 +2,7 @@
 Type = Path
 Operation = Install
 Operation = Upgrade
-Target = etc/skel/.bashrc
+Target = etc/skel/.dot.bashrc
 
 [Action]
 Description = BigLinux change skel .bashrc
