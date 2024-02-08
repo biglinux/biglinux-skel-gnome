@@ -2,24 +2,6 @@
 
 # Backup and replace the default gnome-shell-theme.gresource
 if [ -e "/usr/share/gnome-shell/gnome-shell-theme.gresource" ]; then
-  mv -f "/usr/share/gnome-shell/gnome-shell-theme.gresource" "/usr/share/gnome-shell/gnome-shell-theme.gresource.bak"
+  mv -f "/usr/share/gnome-shell/gnome-shell-theme.gresource" "/usr/share/gnome-shell/gnome-shell-theme.gresource.default"
 fi
 cp -f "/usr/share/gnome-shell/gnome-shell-theme.gresource.big" "/usr/share/gnome-shell/gnome-shell-theme.gresource"
-
-# # Backup and replace gnome-shell-dbus-interfaces.gresource
-# if [ -e "/usr/share/gnome-shell/gnome-shell-dbus-interfaces.gresource" ]; then
-#   mv -f "/usr/share/gnome-shell/gnome-shell-dbus-interfaces.gresource" "/usr/share/gnome-shell/gnome-shell-dbus-interfaces.gresource.bak"
-# fi
-# cp -f "/path/to/your/new/gnome-shell-dbus-interfaces.gresource.big" "/usr/share/gnome-shell/gnome-shell-dbus-interfaces.gresource"
-# 
-# # Backup and replace gnome-shell-icons.gresource
-# if [ -e "/usr/share/gnome-shell/gnome-shell-icons.gresource" ]; then
-#   mv -f "/usr/share/gnome-shell/gnome-shell-icons.gresource" "/usr/share/gnome-shell/gnome-shell-icons.gresource.bak"
-# fi
-# cp -f "/path/to/your/new/gnome-shell-icons.gresource.big" "/usr/share/gnome-shell/gnome-shell-icons.gresource"
-# 
-# # Backup and replace gnome-shell-osk-layouts.gresource
-# if [ -e "/usr/share/gnome-shell/gnome-shell-osk-layouts.gresource" ]; then
-#   mv -f "/usr/share/gnome-shell/gnome-shell-osk-layouts.gresource" "/usr/share/gnome-shell/gnome-shell-osk-layouts.gresource.bak"
-# fi
-# cp -f "/path/to/your/new/gnome-shell-osk-layouts.gresource.big" "/usr/share/gnome-shell/gnome-shell-osk-layouts.gresource"
