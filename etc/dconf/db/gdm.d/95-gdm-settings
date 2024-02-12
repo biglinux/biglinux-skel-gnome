@@ -1,0 +1,77 @@
+#-------- Interface ---------
+[org/gnome/desktop/interface]
+#----------------------------
+cursor-theme='Bibata-Modern-Classic'
+cursor-size=24
+icon-theme='biglinux-icons-material-dark'
+show-battery-percentage=false
+clock-show-seconds=false
+clock-show-weekday=true
+clock-format='24h'
+font-name='Lato Medium 12'
+font-antialiasing='grayscale'
+font-hinting='slight'
+text-scaling-factor=1.0
+
+#---- Accessibility ----
+[org/gnome/desktop/a11y]
+#------------------------
+always-show-universal-access-status=true
+
+#-------- Sound ---------
+[org/gnome/desktop/sound]
+#------------------------
+theme-name='freedesktop'
+event-sounds=true
+input-feedback-sounds=false
+allow-volume-above-100-percent=true
+
+#-------------- Mouse ---------------
+[org/gnome/desktop/peripherals/mouse]
+#------------------------------------
+accel-profile='flat'
+natural-scroll=false
+speed=0.0
+
+#-------------- Touchpad ---------------
+[org/gnome/desktop/peripherals/touchpad]
+#---------------------------------------
+speed=0.0
+tap-to-click=false
+natural-scroll=true
+two-finger-scrolling-enabled=true
+disable-while-typing=true
+
+#---------------- Power -----------------
+[org/gnome/settings-daemon/plugins/power]
+#----------------------------------------
+power-button-action='suspend'
+power-saver-profile-on-low-battery=true
+dim-screen=true
+sleep-inactive-ac-type='suspend'
+sleep-inactive-ac-timeout=1200
+sleep-inactive-battery-type='suspend'
+sleep-inactive-battery-timeout=1200
+
+#--------------- Session ----------------
+[org/gnome/desktop/session]
+#----------------------------------------
+idle-delay=300
+
+#------------- Night Light --------------
+[org/gnome/settings-daemon/plugins/color]
+#----------------------------------------
+night-light-enabled=false
+night-light-temperature=uint32 2700
+night-light-schedule-automatic=true
+night-light-schedule-from=20.0
+night-light-schedule-to=6.0
+
+#----- Login Screen ----
+[org/gnome/login-screen]
+#-----------------------
+logo='/etc/gdm-logo'
+banner-message-enable=true
+banner-message-text='BigLinux Community'
+disable-restart-buttons=false
+disable-user-list=false
